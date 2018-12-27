@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body{
+	font-family: raleway;
+	background-color:white;
+    height:100%;
+}
+
+
+/*Content Wrapper*/
+#content_wrapper{
+    min-height: 100%;
+    position: relative;
+
+}
+/*Fixed Header*/
+header{
+	height: 60px;
+	box-shadow: -1px 3px 4px #807E7E;
+	-webkit-box-shadow: -1px 3px 4px #807E7E;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:999;
+    opacity: 1;
+    background-color:white;
+}
+
+ul{
+	display:block;
+	white-space: nowrap;
+	overflow: hidden;
+	float:right;
+	position:relative;right:80px;
+}
+li{
+	list-style:none;
+	display:inline-block;
+    font-size:15px;
+    font-weight:800 !important;
+	margin-right:10px;
+}
+
+
+/*Main Container*/
+
+section.intro{
+    position:relative;
+	margin-top:60px;
+	width: 100%;
+	background-color: pink;
+	height: 300px;
+	font-family: raleway;
+    padding-top:20px;
+    z-index:-1;
+}
+
+.column{
+	font-style: normal;
+	font-weight:900;
+	font-size: 20px;
+    letter-spacing: 1px;
+    color: darkmagenta;
+	width:55%;
+	margin-left: 20px;
+	margin-right:20px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:30px;
+}
+/*fadeIn Animation*/
+yourElement{
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+/*Project Gallery*/
+.gallery{
+	width: 100%;
+    margin-bottom:960px;
+    z-index:-1;
+}
+.project1{
+	float:left;
+	width:50%;
+	height:600px;
+	background-color:lightblue;
+    padding-top:15px;
+		
+}
+.project2{
+	float:left;
+	width:50%;
+	height:600px;
+	background-color:yellow;	
+    padding-top:15px;
+}
+.cards{
+    width:100%;
+    height:auto;
+    opacity: 0.9;
+}
+/*Footer Section*/
+footer{
+    background-color: gainsboro;
+    padding-top:60px;
+    padding-bottom: 60px;
+    width:100%;
+    clear:both;
+    margin-top:-450px;
+    z-index;-1;
+}
+#intouch{
+    font-weight: bolder;
+    font-size:20px;
+    text-align: center;
+}
+.button{
+    width:200px;
+    margin-top:20px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border: 3px solid white;
+    color:white;
+    transition:all 0.3s linear;
+}
+.button:hover{
+    background-color: pink;
+    color:white;
+    cursor:pointer;
+}
+.link{
+    margin-top:15px;
+    text-align: center;
+	margin-bottom: 40px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #717070;
+    color:white;
+    letter-spacing: 2px; 
+    z-index:-1;
+}
