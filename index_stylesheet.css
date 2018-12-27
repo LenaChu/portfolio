@@ -16,14 +16,15 @@ body{
 /*Fixed Header*/
 header{
 	height: 60px;
-	box-shadow: -1px 3px 4px #807E7E;
-	-webkit-box-shadow: -1px 3px 4px #807E7E;
+	box-shadow: -1px 3px 4px #BC8F8F;
+	-webkit-box-shadow: -1px 3px 4px #BC8F8F;
     position:fixed;
     top:0;
     width:100%;
     z-index:999;
     opacity: 1;
     background-color:white;
+    opacity:0.9;
 }
 
 ul{
@@ -48,7 +49,7 @@ section.intro{
     position:relative;
 	margin-top:60px;
 	width: 100%;
-	background-color: pink;
+	background-color:#99FFFF;
 	height: 300px;
 	font-family: raleway;
     padding-top:20px;
@@ -57,10 +58,10 @@ section.intro{
 
 .column{
 	font-style: normal;
-	font-weight:900;
+	font-weight:400;
 	font-size: 20px;
     letter-spacing: 1px;
-    color: darkmagenta;
+    color: 	#2E33A3;
 	width:55%;
 	margin-left: 20px;
 	margin-right:20px;
@@ -84,7 +85,7 @@ yourElement{
 	float:left;
 	width:50%;
 	height:600px;
-	background-color:lightblue;
+	background-color:#FFC0CB;
     padding-top:15px;
 		
 }
@@ -134,7 +135,7 @@ footer{
     transition:all 0.3s linear;
 }
 .button:hover{
-    background-color: pink;
+    background-color: #99FFFF;
     color:white;
     cursor:pointer;
 }
@@ -147,8 +148,14 @@ footer{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
-    background-color: #717070;
-    color:white;
+    background-color: #99FFFF;
+    color:#2E33A3;
     letter-spacing: 2px; 
     z-index:-1;
+}
+.socialmedia{
+    background-image: url($img), linear-gradient(#2E33A3 #2E33A3);
+    background-blend-mode: lighten;
+    background-size: cover;
+        
 }
