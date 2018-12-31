@@ -16,15 +16,15 @@ body{
 /*Fixed Header*/
 header{
 	height: 60px;
-	box-shadow: -1px 3px 4px #BC8F8F;
-	-webkit-box-shadow: -1px 3px 4px #BC8F8F;
+	box-shadow: -1px 3px 4px #666666;
+	-webkit-box-shadow: -1px 3px 4px #666666;
     position:fixed;
     top:0;
     width:100%;
     z-index:999;
     opacity: 1;
     background-color:white;
-    opacity:0.9;
+    opacity:0.8;
 }
 
 ul{
