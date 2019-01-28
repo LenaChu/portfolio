@@ -166,6 +166,18 @@ a.anchor {
     height:auto;
     opacity: 0.9;
 }
+h4#MeUni_title{
+    font-family: 'Raleway';
+    color:black;
+    margin-top:20px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+}
+p#MeUni_briefintro{
+    font-family: 'Open Sans';
+    padding-left: 15px;
+    color:#2E33A3;
+}
 /*Footer Section*/
 footer{
     background-color: gainsboro;
