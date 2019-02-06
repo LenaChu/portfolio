@@ -9,7 +9,7 @@ body{
 
 
 /*Content Wrapper*/
-#content_wrapper{
+#body_wrapper{
     min-height: 100%;
     position: relative;
 }
@@ -106,24 +106,81 @@ section.intro{
 }
 
 /*Main Content*/
-div#construction{
-    text-align: center;
+div#content_wrapper{
+    text-align: left;
+}
+/*Overiew*/
+div#overview{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h2{
+    font-family:'Raleway';
+    color:black;
+    margin-bottom: 5px;
+}
+h3#overview_h{
+    font-family:'Raleway';
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+div#overview_detail{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+div.one_column{
+    width:25%;
 }
 
-h3{
+div.two_column{
+    width:25%;
+}
+div.three_column{
+    width:25%;
+}
+/*Design Process*/
+section#design_process{
+    margin-top:30px;
+    padding-top:20px;
+    background-color: antiquewhite;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h3#dp_h{
     font-family: 'Raleway';
-    font-weight:1000;
-    color:orangered;
 }
-span.content{
-    font-family:'Open Sans';  
-    font-style: normal;
+div#dp_img{
+    display: flex;
 }
-span#report_link{
-    font-family: 'Open Sans'; 
-    font-style: bold;
-    font-size:20px;
+div.five_column{
+    width:25%;
 }
+
+div.six_column{
+    width:25%;
+}
+div.seven_column{
+    width:25%;
+}
+div.eight_column{
+    width:25%;
+}
+
+
+
+
+
+div#overview p{font-family:'Raleway';
+  font-style: normal;
+  text-align: justify;
+  text-justify:inter-ideograph;
+  line-height: 25px;
+  font-size:18px;
+  font-weight:lighter;
+}
+
+
 
 /*Copy Right Declaration*/
 .link-icon{

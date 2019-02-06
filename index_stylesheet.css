@@ -145,21 +145,24 @@ a.anchor {
 	width: 100%;
     margin-bottom:960px;
     z-index:-1;
+    padding-left:50px;
+    padding-right:50px;
 }
 .project1{
 	float:left;
-	width:50%;
+	width:30%;
 	height:600px;
-	background-color:#FFC0CB;
+	background-color:white;
     padding-top:15px;
 		
 }
 .project2{
 	float:left;
-	width:50%;
+	width:30%;
 	height:600px;
-	background-color:yellow;	
+	background-color:white;	
     padding-top:15px;
+    margin-left:30px;
 }
 .cards{
     width:100%;
