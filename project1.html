@@ -4,27 +4,38 @@
     <meta charset="UTF-8">
     <title>Meditation App</title>
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Oswald|Raleway|Roboto" rel="stylesheet">
-    <link href="project1_stylesheet.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <!--My stylesheet-->
+     <link href="my_stylesheet.css" rel="stylesheet">
     <style>
         a{text-decoration: none;
         }
         body{
             font-family: 'Raleway', sans-serif;
-            font-family: 'Open Sans', sans-serif;
-            font-family: 'Roboto', sans-serif;
-            font-family: 'Lato', sans-serif;
-            font-family: 'Montserrat', sans-serif;
-            font-family: 'Oswald', sans-serif;
         }
+        h2{
+            color:rgb(133,62,144);
+        }
+        h3{
+            color:rgb(133,62,144);
+        }
+        h4{
+           color:rgb(133,62,144);
+        }
+        p{ color:darkslategray;}
         </style>
     </head>
     <body>
-    <div class="body_wrapeer">
-        <header>
+    <div id="content_wrapeer">
+        <!--Header-->
+        <header id="my_header">
         	<nav class="navibar">
 				<ul class="navibar navlinks">
-				<li class="navibutton"><span style="color: #2E33A3; margin-bottom: 20px; margin-right: 20px; margin-top: 20px;"><a href="index.html#myproject" class="hvr-underline-from-center">WORK</a></span></li>
+				<li class="navibutton"><span style="color: #2E33A3; margin-bottom: 20px; margin-right: 20px; margin-top: 20px;"><a  id="workBttn" href="index.html#myproject" class="hvr-underline-from-center" onclick="hoverNav()">WORK</a></span></li>
 				<li class="navibutton"><span style="margin:20px;color:#2E33A3;"><a href="about_me_page.html" class="hvr-underline-from-center">ABOUT</a></span></li>
 				<li class="navibutton"><span style="margin:20px;color:#2E33A3;"><a href="pic/CV_WanChunChu_UX.pdf" class="hvr-underline-from-center">RESUME</a></span></li>
 				</ul>
@@ -33,7 +44,7 @@
         <!--Introduction-->
         <section class="intro"> 
             <div class="title">
-                <h1>Me Uni.</h1>
+                <h2>ME UNI.</h2>
                 <div id="card"></div>
             </div>
             <div class="brief_intro">
@@ -42,50 +53,80 @@
         
         </section>
         <!--Main Content-->
-        <div id="content_wrapper">
+        <div id="overview_wrapper">
         <div id="overview">
             <div class=overview_briefintro>
-            <h2>Overview</h2>
+            <h3>OVERVIEW</h3>
                 <p>Me Uni. is a mobile app aiming to help people build a habit of meditation. It features a fun and engaging game to motivate users to keep the practice, a robust social platform allowing users to connect to the meditation community, and a heart beat tracker to watch their body change. Through Me Uni., users can form a lasting habit of meditation, enjoy doing it alone or join the thriving community of meditators around the globe.</p></div>
             <div id=overview_detail> 
-            <div class="one_column"><h3 id="overview_h">Course</h3><p>Consumer Health Informatics</p></div>
-            <div class="two_column"><h3 id="overview_h">Team Member</h3>
+            <div class="one_column"><h4 id="overview_h">COURSE</h4><p>Consumer Health Informatics</p></div>
+            <div class="two_column"><h4 id="overview_h">TEAM MEMBER</h4>
             <p>Ssu-Ting Wang</p></div>
-            <div class="three_column"><h3 id="overview_h">My Role</h3>
+            <div class="three_column"><h4 id="overview_h">MY ROLE</h4>
             <p>Competitve analysis<br />UX research<br />UX design</p></div>
-            <div class="four_column"><h3 id="overview_h">Time</h3>
+            <div class="four_column"><h4 id="overview_h">TIME</h4>
             <p>Sep. 2018 - Dec. 2018</p></div>
             </div>
         </div>
+         </div>
         <!--Design Process-->
         <section id="design_process">
             <div id="dp_content">
-                  <h2>Design Process</h2>
+                  <h3>DESIGN PROCESS</h3>
                 <div id="dp_img">
-                    <div class="five_column">
-                    <h3 id="dp_h">Explore</h3 ></div>
-                    <div class="six_column"><h3 id="dp_h">Research</h3></div>
-                    <div class="seven_column"><h3 id="dp_h">Plan</h3></div>
-                    <div class="eight_column"><h3 id="dp_h">Create</h3></div>
+                    <div class="five_column"><img id="dp_explore" src="pic/design_process/dp_explore.svg" width="100px">
+                    <h4 id="dp_h">EXPLORE</h4><ul class="dp_ul"></div>
+                    <div class="six_column"><img id="dp_research" src="pic/design_process/dp_research.svg" width="100px"><h4 id="dp_h">RESEARCH</h4></div>
+                    <div class="seven_column"><img id="dp_plan" src="pic/design_process/dp_plan.svg" width="100px"><h4 id="dp_h">PLAN</h4></div>
+                    <div class="eight_column"><img id="dp_create" src="pic/design_process/dp_create.svg" width="100px"><h4 id="dp_h">CREATE</h4></div>
                     </div>
             </div>
         </section>
+        <!--Background-->
+        <section id="background"><div><h3>BACKGORUND</h3><p>Meditation has long been under scientific investigation and proven beneficial to mental health. It is not just effective; even few minutes of meditation can improve resilience, it is also easy to learn. However, for people considering attending a meditation class, time and location are always two big challenges.</p><p>Many meditation apps have brought their solutions to address those challenges. While after surveying the main players in the market, we found there are still some shortcomings within the current solutions. Therefore, we decided to propose our solution based on our research.</p> </div>
+        </section>
+        <!--Why Meditation-->
+        <section id="why_med"><div class="why_content"><h3>WHY MEDITATION?</h3><p>As a stress reduction technique, meditation has many advatages.</p></div><div id="why_ad_r1"><div class="nine_column"><img id="why_access" src="pic/meditation_ad/happy.svg" width="100px"><h4 id="why_h">ACCESSIBILITY</h4><p>Easy to learn and everyone can learn</p></div>
+            <div class="ten_column"><img id="why_flex" src="pic/meditation_ad/freedom.svg" width="100px"><h4 id="why_h">FLEXIBILITY</h4>
+            <p>Can do it anytime and anywhere</p></div></div>
+            <div id="why_ad_r2">
+            <div class="eleven_column"><img id="why_rec" src="pic/meditation_ad/networking.svg" width="100px"><h4 id="why_h"><h4 id="why_h">RECREATING</h4>
+            <p>Can do it alone or join a group</p></div>
+            <div class="twelve_column"><img id="why_eff" src="pic/meditation_ad/magic-wand.svg" width="100px"><h4 id="why_h"><h4 id="why_h">EFFECTIVENESS</h4>
+            <p>Five minutes per day can benefit wellness</p></div></div>
+            </section>
         <!--Competitve Analysis-->
         <section id="com_analysis">
             <div class="com_summary">
-                <h2></h2>
+                <h3>COMPETITIVE ANALYSIS</h3>
+                <p>We selected three direct competitors with most users and three indirect competitors as the targets of our competitive analysis. We listed the features they contain and compared the way they organize information. We also reviewed users’ comments and ratings. After those close examination, we were able to generalized some takeaways about what are provided and what are missed in the existing solutions.</p>
+                <!--Insert a table-->
+                <div class="com_table"><img src="pic/competitor_table.001.png" alt="Comparison Table"></div>
             </div>
         </section>
-        <!--Findings and Gaps-->
+                <!--Takeaways-->
+    <section id="takeaways">
+    <div class="takeaways_bullets"><h3>TAKEAWAYS</h3>
+    <div class="bullet_flexbox_row">
+        <div id="thirdteen_column"><img id="magnifier" src="pic/magnifying-glass.svg" alt="magnifier" width="40px;"></div>
+        <div id="fourteen_column"><p id="bullet1">Most competitors provide a varieties of content, such as audio, music, broadcast, even video. Some classify their content by different purposes (e.g. anxiety, relationship). Some classify their content according to different groups of audience (e.g. begineer, kid).</p></div></div>
+       <div class="bullet_flexbox_row">
+        <div id="fifteen_column"><img id="magnifier" src="pic/magnifying-glass.svg" alt="magnifier" width="40px;"></div>
+        <div id="sixteen_column"><p id="bullet1">Most competitors provide self tracking information such as the stats of continued time. To motivate users to keep practice, some of them use ranking board, while some use badges. All competitors allow setting personal reminder (and usually will recommend to do so).</p></div></div>
+         <div class="bullet_flexbox_row">
+        <div id="seventeen_column"><img id="magnifier" src="pic/magnifying-glass.svg" alt="magnifier" width="40px;"></div>
+        <div id="eighteen_column"><p id="bullet1">Very few competitors include social community feature. Most of them have very limited channel to reach out other users or mentors. In this catalog, Insight Timer makes it standing out from the others. It's more like meditator's version of Facebook. The social community on Insight Timer is strong and users become closer through sharing experiences and interpersonal communication.</p></div></div>
+    </div>
+    </section>
         <!--Solutions-->
         <!--Insights from Theories-->
         <!--Design-->
         <!--Footer_Next Project-->
-            </div>
-        <footer></footer>
+           
         <!--Copy Right Declaration-->
     <div class="copyright">
 		 &copy;2018 - <strong>DESIGNED AND CODED BY LENA</strong>
+        <p>Icons from <a id="icon_source" href="www.flaticon.com is licensed">www.flaticon.com</a> is licensed by <a id="icon_source" href="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a></p>
 		 <div class="link-icon">
              <a href="mailto:wanchun.chu@utexas.edu" style="margin:50px;" class="social-link"><img class="svg social-link" alt="Email Me" src="pic/sent-mail.svg" width="20px"></a>
 			 <a href="https://www.linkedin.com/in/wan-chun-chu-832a75127/" target="_blank" style="margin:50px" class="social-link"><img class="svg social-link" alt="LinkedIn" src="pic/linkedin-sign.svg" width="20px"></a>
@@ -95,3 +136,10 @@
     </div>
     </body>
 </html>
+<script>
+    function hoverNav() {
+        console.log("Hello  world!");
+        button = document.getElementById("workBttn");
+        button.style.background = "red";
+    }
+</script>

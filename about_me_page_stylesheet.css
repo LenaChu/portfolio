@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 body{
-	font-family: 'Raleway';
 	background-color:white;
     height:100%;
 }
@@ -14,8 +13,7 @@ body{
 
 }
 /*Fixed Header*/
-header{
-    font-family: 'Raleway';
+header#my_header{
 	height: 60px;
 	box-shadow: -1px 3px 4px #666666;
 	-webkit-box-shadow: -1px 3px 4px #666666;
@@ -84,8 +82,6 @@ section.self_intro{
 	margin-top:60px;
 	width: 100%;
 	background-color:white;
-
-	font-family: raleway;
     padding-top:20px;
     padding-bottom:20px;
     z-index:-1;
@@ -95,11 +91,6 @@ section.self_intro{
 #myprofile{
     width:500px;
     display:inline-block;
-}
-
-
-h2{
-    font-family: 'Raleway';
 }
 
 p{
@@ -120,7 +111,6 @@ p{
 }
 .copyright{
     margin-top:20px;
-    font-family:'Raleway';
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
