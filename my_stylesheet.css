@@ -278,8 +278,8 @@ div#overview_wrapper{
 div#overview{
     padding-left: 150px;
     padding-right: 150px;
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding-top:50px;
+    padding-bottom: 50px;
 }
 
 h4#overview_h{
@@ -313,8 +313,8 @@ div.four_column{
 }
 /*Design Process*/
 section#design_process{
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding-top:50px;
+    padding-bottom: 50px;
     background-color: antiquewhite;
     padding-left: 150px;
     padding-right: 150px;
@@ -340,8 +340,8 @@ div.eight_column{
     text-align: center;
 }
 section#background{
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding-top:50px;
+    padding-bottom: 50px;
     padding-left: 150px;
     padding-right: 150px;
     font-size:16px;
@@ -358,8 +358,8 @@ section#background p{
 }
 /*Why Meditation*/
 section#why_med{
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding-top:50px;
+    padding-bottom: 50px;
     padding-left: 150px;
     padding-right: 150px;
     font-size:16px;
@@ -403,8 +403,8 @@ div#why_ad_r2 p{
 }
 
 section#com_analysis{
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding-top:50px;
+    padding-bottom: 50px;
     padding-left: 150px;
     padding-right: 150px;
     line-height: 25px;
@@ -422,8 +422,8 @@ div.com_table{
 /*Takeaways*/
 div.takeaways_bullets{
     background-color: antiquewhite;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 150px;
     padding-right: 150px;
     font-size:16px;
