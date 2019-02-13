@@ -460,3 +460,155 @@ div#seventeen_column{
 div#eighteen_column{
     width:80%;
 }
+/*Problem Statement*/
+section#problem_statement{
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 25px;
+    font-size:16px;
+    text-align:left; 
+}
+
+div.problemstatement_flexbox_row{
+    display:flex;
+    flex-direction: row;
+}
+div.problemstatement_flexbox_row div{
+    width:25%;
+    padding-right: 30px;    
+}
+
+section#problem_statement h2#number{
+    color:orange;
+}
+/*Behavior Theory*/
+section#behavior_theory{
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 25px;
+    font-size:16px;
+    text-align:left; 
+    background-color: azure;
+}
+
+/*Behavior Construct*/
+section#behavior_construct{
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 25px;
+    font-size:16px;
+    text-align:left; 
+}
+div.behavior_construct_flexbox_row{
+    display:flex;
+    flex-direction: row;
+}
+div.behavior_construct_flexbox_row div{
+    width:33%;
+    padding-right: 30px;
+}
+section#behavior_construct h2#number{
+    color:orange;
+}
+
+/*Solutions*/
+section#solutions{
+    background-color: antiquewhite;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size:16px;
+    line-height:25px;
+}
+div.solutions_bullets_row{
+    display:flex;
+    flex-direction: row;
+}
+div.solutions_bullets_row em{
+    color:rgb(133,62,144);
+    margin-right: 10px;
+}
+div#twentyfive_column{
+  width:100px;
+  padding-top:30px;
+  padding-left:50px;
+}
+
+div#twentysix_column{
+    width:80%;
+}
+div#twentyseven_column{
+  width:100px;
+  padding-top:30px;
+  padding-left:50px;
+}
+
+div#twentyeight_column{
+    width:80%;
+}
+div#twentynine_column{
+  width:100px;
+  padding-top:35px;
+  padding-left:50px;
+}
+
+div#thirty_column{
+    width:80%;
+}
+
+div#thirtyone_column{
+  width:100px;
+  padding-top:30px;
+  padding-left:50px;
+}
+
+div#thirtytwo_column{
+    width:80%;
+}
+/*Design*/
+section#design{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size:16px;
+    line-height:25px;
+}
+
+
+
+
+
+/*slidein animation*/
+.slideanim {
+    visibility:hidden;
+    visibility:visible\9;/*For old IE browsers IE6-8 */
+}
+.slideanim.slide {                  
+    visibility: visible;                  
+    animation: slide 1s;
+}
+.slideanim::after {
+    /* useful when its child elements are float:left; */
+    content: "";
+    display: table;
+    clear: both;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+
+

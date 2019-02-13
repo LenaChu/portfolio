@@ -11,6 +11,8 @@
   crossorigin="anonymous"></script>
     <!--My stylesheet-->
      <link href="my_stylesheet.css" rel="stylesheet">
+    <!--slide-in animation-->
+    <script src="float-panel.js"></script>
     <style>
         a{text-decoration: none;
         }
@@ -63,7 +65,7 @@
             <div class="two_column"><h4 id="overview_h">TEAM MEMBER</h4>
             <p>Ssu-Ting Wang</p></div>
             <div class="three_column"><h4 id="overview_h">MY ROLE</h4>
-            <p>Competitve analysis<br />UX research<br />UX design</p></div>
+            <p>Competitve analysis<br />UX research<br />UI design</p></div>
             <div class="four_column"><h4 id="overview_h">TIME</h4>
             <p>Sep. 2018 - Dec. 2018</p></div>
             </div>
@@ -92,7 +94,7 @@
             <div id="why_ad_r2">
             <div class="eleven_column"><img id="why_rec" src="pic/meditation_ad/networking.svg" width="100px"><h4 id="why_h"><h4 id="why_h">RECREATING</h4>
             <p>Can do it alone or join a group</p></div>
-            <div class="twelve_column"><img id="why_eff" src="pic/meditation_ad/magic-wand.svg" width="100px"><h4 id="why_h"><h4 id="why_h">EFFECTIVENESS</h4>
+            <div class="twelve_column"><img id="why_eff " src="pic/meditation_ad/magic-wand.svg" width="100px"><h4 id="why_h"><h4 id="why_h">EFFECTIVENESS</h4>
             <p>Five minutes per day can benefit wellness</p></div></div>
             </section>
         <!--Competitve Analysis-->
@@ -109,18 +111,61 @@
     <div class="takeaways_bullets"><h3>TAKEAWAYS</h3>
     <div class="bullet_flexbox_row">
         <div id="thirdteen_column"><img id="magnifier" src="pic/magnifying-glass.svg" alt="magnifier" width="40px;"></div>
-        <div id="fourteen_column"><p id="bullet1">Most competitors provide a variety of content, such as audio, music, broadcast, even video. Some classify their content by different purposes (e.g. anxiety, relationship). Some classify their content according to different groups of audience (e.g. begineer, kid).</p></div></div>
+        <div id="fourteen_column"><p id="bullet1">Most competitors provide a variety of content, such as audio, music, broadcast, even video. Some classify their content by different interests (e.g. anxiety, relationship). Some classify their content according to different groups of audience (e.g. begineer, kid). However, we found all the content are quite similar - they are all about teaching the same techniques.</p></div></div>
        <div class="bullet_flexbox_row">
         <div id="fifteen_column"><img id="magnifier" src="pic/magnifying-glass.svg" alt="magnifier" width="40px;"></div>
         <div id="sixteen_column"><p id="bullet1">Most competitors provide self tracking information such as the stats of continued time. To motivate users to keep practice, some of them use ranking board, while some use badges. All competitors allow setting personal reminder (and usually will recommend to do so).</p></div></div>
          <div class="bullet_flexbox_row">
         <div id="seventeen_column"><img id="magnifier" src="pic/magnifying-glass.svg" alt="magnifier" width="40px;"></div>
-        <div id="eighteen_column"><p id="bullet1">Very few competitors include social community feature. Most of them have very limited channel to reach out other users or mentors. In this catalog, Insight Timer makes it standing out from the others. It's more like meditator's version of Facebook. The social community on Insight Timer is strong and users become closer through experience sharing and interpersonal communication.</p></div></div>
+        <div id="eighteen_column"><p id="bullet1">Very few competitors include social community feature. Most of them have very limited channel to reach out other users or mentors. In this catalog, Insight Timer makes it standing out from the others. The social community on Insight Timer is strong and users become closer through experience sharing and interpersonal communication.</p></div></div>
     </div>
     </section>
-        <!--Solutions-->
-        <!--Insights from Theories-->
+    <section id="problem_statement">
+        <h3>PROBLEMS</h3>
+        <p>From the competitve analysis, we recognized four main problems.</p>
+        <div class="problemstatement_flexbox_row">
+                <div class="nineteen_column slideanim"><h2 id="number">1</h2><h4>HARD TO PERSIST</h4><p>Even though many gamified features included, beginners still can't persist to form a reqular habit</p></div>
+                <div class="twentyone_column slideanim"><h2 id="number">2</h2><h4>NOT MEET EXPECTAION</h4><p>The content with specific interest fails to discriminate it from the others. The interest may not be perceived</p></div>
+                <div class="twenty_column slideanim"><h2 id="number">3</h2><h4>LACK OF SUPPORT</h4><p>No place for users to seek advices when they find something challenging with the practice</p></div>
+                <div class="twentyone_column slideanim"><h2 id="number">4</h2><h4>LACK OF MEASURE</h4><p>No physiological measurement to record the change of body</p></div>
+            </div>
+    </section>
+    <!--Behavior Theory-->
+    <section id="behavior_theory">
+        <div class="theory_intro"><h3>BEHAVIOR THEORY</h3><p>In addition to competitive analysis, we also reviewed Social Network Theory and Intergrated Behavioral Model that are deprived from the discipline of public health. Such behavior theories or models have attempted to explain how people form their health behaviors.</p><p>They gave us good directions about what are the determining elements for health behavior change. We found that motivation is the key element for people to consider to change their health behaviors. While to from a long term health behavior, more elements come to play a role in the process, including self-efficacy, social support.</p></div>
+    </section>
+    <section id="behavior_construct">
+        <h3>BEHAVIOR CONSTRUCTS</h3>
+        <p>After reviewing Social Network Theory and Intergrated Behavioral Model, we consolidated three main constructs.</p>
+        <div class="behavior_construct_flexbox_row">
+            <div class="twentytwo_column slideanim" ><h2 id="number">1</h2><h4>MOTIVATION</h4><p>The trigger for the individual to consider bahavior change; can be reinforced by creating feedback or reward, and foreseeing the positive outcome</p></div>
+            <div class="twentythree_column slideanim" ><h2 id="number">2</h2><h4>SELF-EFFICACY</h4><p>The belief that the individual can perform a behavior; can be enhanced by providing information, skills training and self-regulation</p></div>
+            <div class="twentyfour_column slideanim" ><h2 id="number">3</h2><h4>SOCIAL SUPPORT</h4><p>The thrust from the surrounding communities; can serve as the source of information and emotional support; the successful predecessor can also become the social model </p></div> 
+        </div>
+    </section>
+    <!--Solutions-->
+    <section id="solutions">
+            <div class="solutions_bullets"><h3>SOLUTIONS</h3>
+                <p>After synthesizing our findins from the two-step research, we came up with four solutions.</p> 
+    <div class="solutions_bullets_row">
+        <div id="twentyfive_column"><img id="bulb" src="pic/creative.svg" alt="bulb" width="50px;"></div>
+        <div id="twentysix_column"> <p id="bullet1"><em>Create a "game" featured with achieving and rewarding mechanism</em>When users achieve a setting goal(e.g., finishing a tutorial session),  they will be rewarded some virtual material for building their virtue home in the game, making the practice more engaging and so  they want to keep the practice.
+</p></div></div>
+<div class="solutions_bullets_row">
+        <div id="twentyseven_column"><img id="bulb" src="pic/creative.svg" alt="bulb" width="50px;"></div>
+           <div id="twentyeight_column"><p id="bullet1"><em>Focus on teaching techniques rather than emphasizing special interests</em>Users switch in different tutorials serving for different interests, but eventually feel disappointed to find they are all talking about the same thing. We want to reduce that confusion and focus on teaching users how to meditate.</p></div></div>
+                <div class="solutions_bullets_row">
+                <div id="twentynine_column"><img id="bulb" src="pic/creative.svg" alt="bulb" width="50px;"></div>
+           <div id="thirty_column"><p id="bullet1"><em>Enable heart beat rate tracking with wearable devices</em> We want to make users feel that the efforts they have put in do transfer into positive impacts to their life. To achieve this goal, we will present data with clean and easy-to-understand visual design, so users can see the change meditation bring to their body and being more motivated to persist with the practice</p></div>
+    </div>
+         <div class="solutions_bullets_row">
+        <div id="thirtyone_column"><img id="bulb" src="pic/creative.svg" alt="bulb" width="50px;"></div>
+        <div id="thirtytwo_column"><p id="bullet1"><em>Incorporate a robust social community platform</em> When users find the current practice challenging, there should be a place for them to seek advices and find their belongings. In this section, there are going to be clipboards allowing users to share information, an in-app message function, and an event function.</p></div>
+        </div>
+    </div>
+                </section>
         <!--Design-->
+    <section id="design"><h3>DESIGN</h3></section>
         <!--Footer_Next Project-->
            
         <!--Copy Right Declaration-->
