@@ -482,6 +482,7 @@ div.problemstatement_flexbox_row div{
 
 section#problem_statement h2#number{
     color:orange;
+    margin-bottom: 0px;
 }
 /*Behavior Theory*/
 section#behavior_theory{
@@ -515,6 +516,7 @@ div.behavior_construct_flexbox_row div{
 }
 section#behavior_construct h2#number{
     color:orange;
+    margin-bottom: 0px;
 }
 
 /*Solutions*/
