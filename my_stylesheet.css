@@ -547,7 +547,7 @@ div.solutions_bullets_row{
     flex-direction: row;
 }
 div.solutions_bullets_row em{
-    color:rgb(133,62,144);
+    color:rgb(72,51,153);
     margin-right: 10px;
 }
 div#twentyfive_column{
@@ -602,15 +602,19 @@ section#brainstorming{
 
 div.brainstorming_flexbox{
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    padding-top:30px;
+}
+div.brainstorming_flexbox p{
+    color:ghostwhite;
+}
+div.brainstorming_flexbox h4{
+    color:ghostwhite;
 }
 div.brainstorming_discrip{
     width:50%;
     padding-right:10px;
     
-}
-div.brainstorming_discrip p{
-    color:ghostwhite;
 }
 div.brainstorming_discrip h4{
     margin-bottom:0;
@@ -618,7 +622,7 @@ div.brainstorming_discrip h4{
 
 div.brainstorming_pic{
     width:50%;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left:
 
 }
