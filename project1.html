@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <title>Meditation App</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Oswald|Raleway|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -20,13 +20,22 @@
             font-family: 'Raleway', sans-serif;
         }
         h2{
-            color:rgb(133,62,144);
+            color:rgb(72,51,153);
+            font-weight: 600;
+            letter-spacing: 2px;
+            
         }
         h3{
-            color:rgb(133,62,144);
+            color:rgb(72,51,153);
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin-bottom: 40px;
         }
         h4{
-           color:rgb(133,62,144);
+           color:rgb(72,51,153);
+           font-weight: 600;
+           letter-spacing: 2px;
+            margin-bottom: 30px;
         }
         p{ color:darkslategray;}
         </style>
@@ -37,20 +46,20 @@
         <header id="my_header">
         	<nav class="navibar">
 				<ul class="navibar navlinks">
-				<li class="navibutton"><span style="color: #2E33A3; margin-bottom: 20px; margin-right: 20px; margin-top: 20px;"><a  id="workBttn" href="index.html#myproject" class="hvr-underline-from-center" onclick="hoverNav()">WORK</a></span></li>
-				<li class="navibutton"><span style="margin:20px;color:#2E33A3;"><a href="about_me_page.html" class="hvr-underline-from-center">ABOUT</a></span></li>
-				<li class="navibutton"><span style="margin:20px;color:#2E33A3;"><a href="pic/CV_WanChunChu_UX.pdf" class="hvr-underline-from-center">RESUME</a></span></li>
+				<li class="navibutton"><span style="color: rgb(72,51,153); margin-bottom: 20px; margin-right: 20px; margin-top: 20px;"><a  id="workBttn" href="index.html#myproject" class="hvr-underline-from-center" onclick="hoverNav()">WORK</a></span></li>
+				<li class="navibutton"><span style="margin:20px;color:rgb(72,51,153);"><a href="about_me_page.html" class="hvr-underline-from-center">ABOUT</a></span></li>
+				<li class="navibutton"><span style="margin:20px;color:rgb(72,51,153);"><a href="pic/CV_WanChunChu_UX.pdf" class="hvr-underline-from-center">RESUME</a></span></li>
 				</ul>
 			</nav>
         </header>
         <!--Introduction-->
-        <section class="intro"> 
+        <section class="MEUNI_intro"> 
             <div class="title">
                 <h2>ME UNI.</h2>
-                <div id="card"></div>
             </div>
             <div class="brief_intro">
                 <p>A meditation app helping people keep meditating</p>
+              
             </div>
         
         </section>
@@ -109,13 +118,13 @@
                 <!--Takeaways-->
     <section id="takeaways">
     <div class="takeaways_bullets"><h3>TAKEAWAYS</h3>
-        <p>We distilled three takeaways for competitve analysis.</p>
+        <p>After the comparison, we distilled three takeaways.</p>
     <div class="bullet_flexbox_row">
         <div id="thirdteen_column"><img id="magnifier" src="pic/magnifying-glass.svg" alt="magnifier" width="40px;"></div>
         <div id="fourteen_column"><p id="bullet1">Most competitors provide a variety of content, such as audio, music, broadcast, even video. Some classify their content by different interests (e.g. anxiety, relationship). Some classify their content according to different groups of audience (e.g. begineer, kid). However, we found all the content are quite similar - they are all about teaching the same techniques.</p></div></div>
        <div class="bullet_flexbox_row">
         <div id="fifteen_column"><img id="magnifier" src="pic/magnifying-glass.svg" alt="magnifier" width="40px;"></div>
-        <div id="sixteen_column"><p id="bullet1">Most competitors provide self tracking information such as the stats of continued time. To motivate users to keep practice, some of them use ranking board, while some use badges. All competitors allow setting personal reminder (and usually will recommend to do so).</p></div></div>
+        <div id="sixteen_column"><p id="bullet1">Most competitors provide self tracking information such as the stats of continued time. To motivate users to keep practice, some of them use leaderboards, while some use badges. All competitors allow setting personal reminder (and usually will recommend to do so).</p></div></div>
          <div class="bullet_flexbox_row">
         <div id="seventeen_column"><img id="magnifier" src="pic/magnifying-glass.svg" alt="magnifier" width="40px;"></div>
         <div id="eighteen_column"><p id="bullet1">Very few competitors include social community feature. Most of them have very limited channel to reach out other users or mentors. In this catalog, Insight Timer makes it standing out from the others. The social community on Insight Timer is strong and users become closer through experience sharing and interpersonal communication.</p></div></div>
@@ -125,10 +134,10 @@
         <h3>PROBLEMS</h3>
         <p>From the competitve analysis, we recognized four main problems.</p>
         <div class="problemstatement_flexbox_row">
-                <div class="nineteen_column slideanim"><h2 id="number">1</h2><h4>HARD TO PERSIST</h4><p>Even though many gamified features included, beginners still can't persist to form a reqular habit</p></div>
-                <div class="twentyone_column slideanim"><h2 id="number">2</h2><h4>NOT MEET EXPECTAION</h4><p>The content with specific interest fails to discriminate it from the others. The interest may not be perceived</p></div>
-                <div class="twenty_column slideanim"><h2 id="number">3</h2><h4>LACK OF SUPPORT</h4><p>No place for users to seek advices when they find something challenging with the practice</p></div>
-                <div class="twentyone_column slideanim"><h2 id="number">4</h2><h4>LACK OF MEASURE</h4><p>No physiological measurement to record the change of body</p></div>
+                <div class="nineteen_column slideanim"><h2 id="number">01</h2><h4>HARD TO PERSIST</h4><p>Even though many gamified features included, beginners still can't persist to form a reqular habit</p></div>
+                <div class="twentyone_column slideanim"><h2 id="number">02</h2><h4>NOT MEET EXPECTAION</h4><p>The content with specific interest fails to discriminate it from the others. The interest may not be perceived</p></div>
+                <div class="twenty_column slideanim"><h2 id="number">03</h2><h4>LACK OF SUPPORT</h4><p>No place for users to seek advices when they find something challenging with the practice</p></div>
+                <div class="twentyone_column slideanim"><h2 id="number">04</h2><h4>LACK OF MEASURE</h4><p>No physiological measurement to record the change of body</p></div>
             </div>
     </section>
     <!--Behavior Theory-->
@@ -139,9 +148,9 @@
         <h3>BEHAVIOR CONSTRUCTS</h3>
         <p>After reviewing Social Network Theory and Intergrated Behavioral Model, we consolidated three main constructs.</p>
         <div class="behavior_construct_flexbox_row">
-            <div class="twentytwo_column slideanim" ><h2 id="number">1</h2><h4>MOTIVATION</h4><p>The trigger for the individual to consider bahavior change; can be reinforced by creating feedback or reward, and foreseeing the positive outcome</p></div>
-            <div class="twentythree_column slideanim" ><h2 id="number">2</h2><h4>SELF-EFFICACY</h4><p>The belief that the individual can perform a behavior; can be enhanced by providing information, skills training and self-regulation</p></div>
-            <div class="twentyfour_column slideanim" ><h2 id="number">3</h2><h4>SOCIAL SUPPORT</h4><p>The thrust from the surrounding communities; can serve as the source of information and emotional support; the successful predecessor can also become the social model </p></div> 
+            <div class="twentytwo_column slideanim" ><h2 id="number">01</h2><h4>MOTIVATION</h4><p>The trigger for the individual to consider bahavior change; can be reinforced by creating feedback or reward, and foreseeing the positive outcome</p></div>
+            <div class="twentythree_column slideanim" ><h2 id="number">02</h2><h4>SELF-EFFICACY</h4><p>The belief that the individual can perform a behavior; can be enhanced by providing information, skills training and self-regulation</p></div>
+            <div class="twentyfour_column slideanim" ><h2 id="number">03</h2><h4>SOCIAL SUPPORT</h4><p>The thrust from the surrounding communities; can serve as the source of information and emotional support; the successful predecessor can also become the social model </p></div> 
         </div>
     </section>
     <!--Solutions-->
@@ -165,13 +174,18 @@
         </div>
     </div>
                 </section>
-        <!--Design
-    <section id="design"><h3>DESIGN</h3></section>-->
+        <!--Brainstorming-->
+    <section id="brainstorming"><h3>BRAINSTORMING</h3>
+        <div class="brainstorming_flexbox">
+            <div class="brainstorming_discrip"><p>We started to ideate composed features of our app based on our solutions. We proposed more than 20 features and listed the notes.  After further examination, we filtered out less important ones and determined three main catalogs and 9 sub-functions. </p><div class="innercell"><h4>GAME</h4><p>Meditation Tutorial/Challenge<br/>Non-guiding timer/Relaxing music<br/>Reward albumn</p></div><div class="innercell"><h4>SOCIAL PLATFORM</h4><p>Topics clipboardss<br/>Groups<br/>Message<br/>Event</p></div><div class="innercell"><h4>SELF - TRACKING</h4><p>Stats of performance<br/>Heart beat rate tracker</p></div></div>
+        <div class="brainstorming_pic"><img src="pic/brainstorming.JPG" alt="Brainstorming"></div>
+        </div>
+                </section>
         <!--Footer_Next Project-->
            
         <!--Copy Right Declaration-->
     <div class="copyright">
-		 &copy;2018 - <strong>DESIGNED AND CODED BY LENA</strong>
+		 &copy;2018 - DESIGNED AND CODED BY LENA
         <p>Icons from <a id="icon_source" href="www.flaticon.com is licensed">www.flaticon.com</a> is licensed by <a id="icon_source" href="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a></p>
 		 <div class="link-icon">
              <a href="mailto:wanchun.chu@utexas.edu" style="margin:50px;" class="social-link"><img class="svg social-link" alt="Email Me" src="pic/sent-mail.svg" width="20px"></a>

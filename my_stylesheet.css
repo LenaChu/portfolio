@@ -36,7 +36,8 @@ li{
 	list-style:none;
 	display:inline-block;
     font-size:15px;
-    font-weight:800 !important;
+    letter-spacing: 3px;
+    font-weight:600 !important;
 }
 /*Animation*/
 /* Underline From Center */
@@ -82,7 +83,6 @@ footer{
     z-index;-1;
 }
 #intouch{
-    font-weight: bolder;
     font-size:20px;
     text-align: center;
     font-family:'Raleway'
@@ -245,15 +245,20 @@ div#myprofile p{
 
 /*project 1*/
 /*Title and Introduction*/
-section.intro{
+section.MEUNI_intro{
     position:relative;
 	margin-top:60px;
 	width: 100%;
-	background-color:rgba(117, 217, 221, 0.5);
-	height: 300px;
+	background-color:rgba(136, 90, 179, 0.8);
     padding-top:20px;
     padding-bottom:20px;
     z-index:-1;
+}
+section.MEUNI_intro p{
+    color:ghostwhite;
+}
+section.MEUNI_intro h2{
+    color:ghostwhite;
 }
 .title{
     width:100%;
@@ -261,14 +266,19 @@ section.intro{
     font-weight: 600;
     text-align: center;
 }
+.brief_intro{
+    text-align: center;
+}
 .brief_intro p{
     width:100%;
-    text-align: center;
     font-weight:400;
     font-size:18px;
     padding-top:20px;
     padding-bottom:20px;
     
+}
+img#MEUNI_iphone{
+    text-align: center;
 }
 /*Main Content*/
 div#overview_wrapper{
@@ -319,6 +329,9 @@ section#design_process{
     padding-left: 150px;
     padding-right: 150px;
 }
+section#design_process h4{
+    color:darkslategray;
+}
 div#dp_img{
     display: flex;
     padding-top: 30px;
@@ -364,7 +377,7 @@ section#why_med{
     padding-right: 150px;
     font-size:16px;
     text-align:left; 
-    background-color:azure;
+    background-color:rgba(235,255,255,1);
 }
 div#why_ad_r1{
     padding-top:30px;
@@ -493,7 +506,7 @@ section#behavior_theory{
     line-height: 25px;
     font-size:16px;
     text-align:left; 
-    background-color: azure;
+    background-color: rgba(235,255,255,1);
 }
 
 /*Behavior Construct*/
@@ -574,17 +587,45 @@ div#thirtyone_column{
 div#thirtytwo_column{
     width:80%;
 }
-/*Design*/
-section#design{
+/*Brainstorming*/
+section#brainstorming{
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 150px;
     padding-right: 150px;
     font-size:16px;
     line-height:25px;
+    overflow: hidden;
+    background-color:rgba(136, 90, 179, 0.8);
+    
 }
 
+div.brainstorming_flexbox{
+    display: flex;
+    flex-direction: row
+}
+div.brainstorming_discrip{
+    width:50%;
+    padding-right:10px;
+    
+}
+div.brainstorming_discrip p{
+    color:ghostwhite;
+}
+div.brainstorming_discrip h4{
+    margin-bottom:0;
+}
 
+div.brainstorming_pic{
+    width:50%;
+    padding-top: 50px;
+    padding-left:
+
+}
+div.brainstorming_pic img{
+    max-height: 100%;
+    max-width: 100%;
+}
 
 
 
