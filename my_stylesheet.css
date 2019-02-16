@@ -60,7 +60,7 @@ li{
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #2E33A3;
+  background: rgb(72,51,153);
   height: 1px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -212,7 +212,7 @@ h4#MeUni_title{
 }
 p#MeUni_briefintro{
     padding-left: 15px;
-    color:#2E33A3;
+    color:rgb(72.51.153);
 }
 /*About_Me*/
 /*Main Content begins!*/
