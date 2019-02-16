@@ -4,6 +4,7 @@
 body{
 	background-color:white;
     height:100%;
+    position:relative;
 }
 /*Content Wrapper*/
 #content_wrapper{
@@ -73,21 +74,18 @@ li{
   right: 0;
 }
 /*Footer Section*/
-footer{
+div#contact{
     background-color: gainsboro;
     padding-top:60px;
     padding-bottom: 60px;
     width:100%;
-    clear:both;
-    margin-top:-450px;
-    z-index;-1;
 }
 #intouch{
     font-size:20px;
     text-align: center;
     font-family:'Raleway'
 }
-.button{
+div#contact div.button{
     width:200px;
     margin-top:20px;
     margin-right:auto;
@@ -117,7 +115,7 @@ footer{
     text-align: center;
 	margin-bottom: 40px;
 }
-.copyright{
+footer.copyright{
     width:100%;
     text-align: center;
     padding-top: 40px;
@@ -125,7 +123,6 @@ footer{
     background-color: rgba(117, 217, 221, 0.5);
     color:black;
     letter-spacing: 2px; 
-    z-index:-1;
 }
 div.copyright p{
     font-size:14px;
@@ -140,23 +137,20 @@ img.svg social-link:hover path{
     fill: black;
 }
 /*Index page*/
-section.intro{
-    position:relative;
+section.index_banner{
 	margin-top:60px;
 	width: 100%;
 	background-color:rgba(117, 217, 221, 0.5);
 	height: 300px;
-	font-family: raleway;
+	font-family: 'Raleway';
     padding-top:20px;
-    z-index:-1;
 }
-
 .column{
 	font-style: normal;
 	font-weight:400;
 	font-size: 20px;
     letter-spacing: 1px;
-    color: 	black;
+    color: 	darkslategray;
 	width:55%;
 	margin-left: 20px;
 	margin-right:20px;
@@ -169,40 +163,45 @@ yourElement{
     animation-duration: 6s;
     animation-delay: 3s;
 }
-a.anchor {
+a.anchor{
     display: block;
     position: relative;
     top: -60px;
     visibility: hidden;
 }
 /*Project Gallery*/
+
+.gallery_table_wrapper{
+    display: inline-block;
+    width: 100%;
+}
 .gallery{
 	width: 100%;
-    margin-bottom:960px;
-    z-index:-1;
-    padding-left:50px;
-    padding-right:50px;
+    display: table;
+    z-index: -1;
+ 
 }
-.project1{
-	float:left;
-	width:30%;
-	height:600px;
-	background-color:white;
-    padding-top:15px;
-		
+.gallery h2{
+    color:ghostwhite;
 }
-.project2{
-	float:left;
-	width:30%;
-	height:600px;
-	background-color:white;	
-    padding-top:15px;
-    margin-left:30px;
+.gallery p{
+    color:ghostwhite;
 }
-.cards{
-    width:100%;
-    height:auto;
-    opacity: 0.9;
+div.project1{
+	width:50%;
+	background-color:rgb(153, 109, 204);
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+div.project2{
+	width:50%;
+	background-color:darkseagreen;	
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
 }
 h4#MeUni_title{
     font-family: 'Raleway';
@@ -215,8 +214,6 @@ p#MeUni_briefintro{
     padding-left: 15px;
     color:#2E33A3;
 }
-
-
 /*About_Me*/
 /*Main Content begins!*/
 /*Self-Introduction*/
@@ -249,7 +246,7 @@ section.MEUNI_intro{
     position:relative;
 	margin-top:60px;
 	width: 100%;
-	background-color:rgba(136, 90, 179, 0.8);
+	background-color:rgb(153, 109, 204);
     padding-top:20px;
     padding-bottom:20px;
     z-index:-1;
@@ -596,8 +593,7 @@ section#brainstorming{
     font-size:16px;
     line-height:25px;
     overflow: hidden;
-    background-color:rgba(136, 90, 179, 0.8);
-    
+    background-color:rgb(153, 109, 204);    
 }
 
 div.brainstorming_flexbox{
@@ -627,6 +623,23 @@ div.brainstorming_pic img{
     max-height: 100%;
     max-width: 100%;
 }
+/*Information Architecture*/
+section#IA{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size:16px;
+    line-height:25px;   
+}
+div.IA_pic{
+    text-align: center;
+}
+img#IAflow{
+    max-height: 100%;
+    max-width: 100%;
+}
+
 
 
 
