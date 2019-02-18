@@ -217,27 +217,80 @@ p#MeUni_briefintro{
 /*About_Me*/
 /*Main Content begins!*/
 /*Self-Introduction*/
-section.self_intro{
-    position:relative;
+section.self_introduction{
 	margin-top:60px;
-	width: 100%;
 	background-color:white;
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:150px;
+    padding-left:150px;
     z-index:-1;
+    line-height: 25px;
+}
+
+div.mountaingirl_flexbox{
+    display: flex;
+    flex-direction: row;
+}
+div.mountaingirl_pic{
+    width:50%;
+    
+}
+div.mountaingirl_intro{
+    width:50%;
+    padding-left:30px;
+}
+img#mountaingirl{
+    max-height: 100%;
+    max-width: 100%;
+}
+section.whatido{
+	background-color:antiquewhite;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:150px;
+    padding-left:150px;
+    line-height: 25px;
+}
+div.whatido_flexbox{
+    display: flex;
+    flex-direction: row;
+}
+div.whatido_flexbox div#skill{
+    width:33%;
     text-align: center;
 }
-
-#myprofile{
-    width:500px;
-    display:inline-block;
-}
-
-div#myprofile p{
-    text-align: justify;
-    font-size:16px;
+section.whatiequip{
+	background-color:azure;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:150px;
+    padding-left:150px;
     line-height: 25px;
-    margin-right:40px;
+}
+div.whatiequip_flexbox{
+    display: flex;
+    flex-direction: row;
+}
+div.whatiequip_flexbox div#trait{
+    width:33.3%;
+    text-align: center;
+}
+div.whatiequip_flexbox div#trait p{
+    text-align: left;
+    padding-right:15px;
+    padding-left:15px;
+}
+section.myfacts{
+	background-color:white;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:150px;
+    padding-left:150px;
+    line-height: 25px;
+}
+section.myfacts span{
+    margin-right:10px;
 }
 
 /*project 1*/
@@ -606,7 +659,6 @@ div.brainstorming_flexbox p{
 }
 div.brainstorming_discrip{
     width:50%;
-    padding-right:10px;
     
 }
 div.brainstorming_discrip h4{
@@ -616,7 +668,6 @@ div.brainstorming_discrip h4{
 div.brainstorming_pic{
     width:50%;
     padding-top: 30px;
-    padding-left:
 
 }
 div.brainstorming_pic img{
