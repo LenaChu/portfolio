@@ -567,7 +567,7 @@ div.behavior_factors_flexbox_row{
     display:flex;
     flex-direction: row;
 }
-div.behavior_construct_flexbox_row div{
+div.behavior_factors_flexbox_row div{
     width:33%;
     padding-right: 30px;
 }
