@@ -482,6 +482,10 @@ div.com_summary p{
 div.com_table{
     text-align: center;
 }
+img#competitor_table{
+    max-height: 100%;
+    max-width: 100%;
+}
 /*Takeaways*/
 div.takeaways_bullets{
     background-color: antiquewhite;
@@ -548,7 +552,7 @@ section#problem_statement h2#number{
     margin-bottom: 0px;
 }
 /*Behavior Theory*/
-section#behavior_theory{
+section#behavior_factors{
     padding-top:50px;
     padding-bottom: 50px;
     padding-left: 150px;
@@ -559,17 +563,7 @@ section#behavior_theory{
     background-color: rgba(235,255,255,1);
 }
 
-/*Behavior Construct*/
-section#behavior_construct{
-    padding-top:50px;
-    padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
-    line-height: 25px;
-    font-size:16px;
-    text-align:left; 
-}
-div.behavior_construct_flexbox_row{
+div.behavior_factors_flexbox_row{
     display:flex;
     flex-direction: row;
 }
@@ -577,14 +571,14 @@ div.behavior_construct_flexbox_row div{
     width:33%;
     padding-right: 30px;
 }
-section#behavior_construct h2#number{
+section#behavior_factors h2#number{
     color:orange;
     margin-bottom: 0px;
 }
 
 /*Solutions*/
 section#solutions{
-    background-color: antiquewhite;
+    background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 150px;
