@@ -60,7 +60,7 @@ li{
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: rgb(72,51,153);
+  background: rgb(153, 109, 204);
   height: 1px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -75,15 +75,16 @@ li{
 }
 /*Footer Section*/
 div#contact{
-    background-color: gainsboro;
+    background-color:rgba(153, 109, 204, 1);
     padding-top:60px;
     padding-bottom: 60px;
     width:100%;
+    
 }
 #intouch{
     font-size:20px;
     text-align: center;
-    font-family:'Raleway'
+    color:ghostwhite;
 }
 div#contact div.button{
     width:200px;
@@ -171,20 +172,22 @@ a.anchor{
 }
 /*Project Gallery*/
 
+
 .gallery_table_wrapper{
     display: inline-block;
     width: 100%;
 }
-.gallery{
+.gallery_title{
 	width: 100%;
     display: table;
+    height:200px;
     z-index: -1;
  
 }
-.gallery h2{
+.gallery_title h2{
     color:ghostwhite;
 }
-.gallery p{
+.gallery_title p{
     color:ghostwhite;
 }
 div.project1{
@@ -213,6 +216,34 @@ h4#MeUni_title{
 p#MeUni_briefintro{
     padding-left: 15px;
     color:rgb(72.51.153);
+}
+.gallery_pic_mockup{
+    width: 100%;
+    display: table;
+    z-index: -1;
+ 
+}
+div#gallerypic_1{
+    width: 50%;
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(153, 109, 204);
+}
+div#gallerypic_2{
+    width: 50%;
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background-color: darkseagreen;
+}
+img#gallery_meuni_mockup{
+    max-height: 100%;
+    max-width: 100%;
+}
+img#gallery_coursecatalog_mockup{
+    max-height: 100%;
+    max-width: 100%;
 }
 /*About_Me*/
 /*Main Content begins!*/
@@ -293,7 +324,7 @@ section.myfacts span{
     margin-right:10px;
 }
 
-/*project 1*/
+/*MeUni*/
 /*Title and Introduction*/
 section.MEUNI_intro{
     position:relative;
@@ -327,9 +358,6 @@ section.MEUNI_intro h2{
     padding-bottom:20px;
     
 }
-img#MEUNI_iphone{
-    text-align: center;
-}
 /*Main Content*/
 div#overview_wrapper{
     text-align: left;
@@ -360,16 +388,20 @@ div#overview p{
 }
 div.one_column{
     width:25%;
+    padding-right: 10px;
 }
 
 div.two_column{
     width:25%;
+    padding-right: 10px;
 }
 div.three_column{
     width:25%;
+    padding-right:10px;
 }
 div.four_column{
     width:25%;
+    padding-right:10px;
 }
 /*Design Process*/
 section#design_process{
@@ -694,12 +726,132 @@ section#design{
     line-height:25px;   
     background-color: antiquewhite;
 }
+div.picture_set_flexbox{
+    display: flex;
+    flex-direction: row;
+}
+div.picture_set_flexbox div{
+    width:33%;
+}
+img#taskflow{
+    max-height: 100%;
+    max-width: 100%;
+}
+
 div.UIflow_pic{
     text-align: center;
+    padding-top:30px;
+}
+div.UIflow_pic p{
+    text-align: left;
 }
 img#UIflow{
     max-height: 100%;
     max-width: 100%;
+}
+div.mockup{
+    padding-top:30px;
+    text-align: center;
+}
+img#homepagemock{
+    max-height: 100%;
+    max-width: 100%;
+}
+/*Reflection*/
+section#reflections{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size:16px;
+    line-height:25px;   
+    background-color:white;
+}
+div.reflection_flexbox{
+    display: table;
+    width:100%;
+}
+div.iphone_mockup{
+    width:30%;
+    display: table-cell;
+}
+img#homepagemockup{
+    max-height: 100%;
+    max-width: 100%;
+}
+div.final_column{
+    width: 70%;
+    text-align: left;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+/*Next Project*/
+section#next_project{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size:16px;
+    line-height:25px; 
+    background-color:rgb(153, 109, 204);
+    color: ghostwhite;
+}
+section#next_project h4{
+    color: ghostwhite;
+}
+section#next_project h2{
+    color: ghostwhite;
+}
+div.next_project_flexbox{
+    display: flex;
+    flex-direction: row;
+}
+div.next_project_indicator{
+    width:20%;
+    text-align: center;
+}
+div.next_project_name{
+    width:80%;
+    padding-left: 150px;
+}
+
+
+
+
+/*Course Catalog*/
+/*Banner*/
+section.coursecatalog_banner{
+    position:relative;
+	margin-top:60px;
+	width: 100%;
+	background-color:darkseagreen;
+    padding-top:20px;
+    padding-bottom:20px;
+    z-index:-1;
+}
+section.coursecatalog_banner p{
+    color:ghostwhite;
+}
+section.coursecatalog_banner h2{
+    color:ghostwhite;
+}
+section.coursecatalog_banner div.title{
+    width:100%;
+    font-size:30px;
+    font-weight: 600;
+    text-align: center;
+}
+section.coursecatalog_banner div.brief_intro{
+    text-align: center;
+}
+section.coursecatalog_banner div.brief_intro p{
+    width:100%;
+    font-weight:400;
+    font-size:18px;
+    padding-top:20px;
+    padding-bottom:20px;
+    
 }
 
 
