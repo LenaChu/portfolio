@@ -684,6 +684,23 @@ img#IAflow{
     max-height: 100%;
     max-width: 100%;
 }
+/*design*/
+section#design{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size:16px;
+    line-height:25px;   
+    background-color: antiquewhite;
+}
+div.UIflow_pic{
+    text-align: center;
+}
+img#UIflow{
+    max-height: 100%;
+    max-width: 100%;
+}
 
 
 
