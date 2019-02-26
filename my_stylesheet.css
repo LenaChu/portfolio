@@ -674,6 +674,9 @@ section#brainstorming{
     overflow: hidden;
     background-color:rgb(153, 109, 204);    
 }
+section#brainstorming p{
+    color:ghostwhite;
+}
 
 div.brainstorming_flexbox{
     display: flex;
