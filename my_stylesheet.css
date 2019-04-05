@@ -61,7 +61,7 @@ li{
   right: 51%;
   bottom: 0;
   background: rgb(153, 109, 204);
-  height: 1px;
+  height: 2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
   -webkit-transition-duration: 0.3s;
