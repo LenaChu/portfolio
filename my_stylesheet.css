@@ -371,33 +371,21 @@ div.four_column{
 section#design_process{
     padding-top:50px;
     padding-bottom: 50px;
-    background-color: antiquewhite;
+    background-color: #fdf2c8;
     padding-left: 150px;
     padding-right: 150px;
 }
 section#design_process h4{
     color:darkslategray;
 }
-div#dp_img{
-    display: flex;
-    padding-top: 30px;
-}
-div.five_column{
-    width:25%;
+#dp_img{
     text-align: center;
 }
-div.six_column{
-    width:25%;
-    text-align: center;
+img#design_process_flowchart{
+    max-height: 100%;
+    max-width: 100%;
 }
-div.seven_column{
-    width:25%;
-    text-align: center;
-}
-div.eight_column{
-    width:25%;
-    text-align: center;
-}
+
 section#background{
     padding-top:50px;
     padding-bottom: 50px;
@@ -484,7 +472,7 @@ img#competitor_table{
 }
 /*Takeaways*/
 div.takeaways_bullets{
-    background-color: antiquewhite;
+    background-color: #fdf2c8;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 150px;
