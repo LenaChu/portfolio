@@ -672,31 +672,40 @@ section#brainstorming p{
     color:rgb(101,101,101);
 }
 
+
+
+
+
 div.brainstorming_flexbox{
     display: flex;
     flex-direction: row;
-    padding-top:30px;
 }
-div.brainstorming_flexbox p{
-    color:ghostwhite;
-}
-div.brainstorming_discrip{
-    width:50%;
-    
-}
-div.brainstorming_discrip h4{
-    margin-bottom:0;
-}
-
 div.brainstorming_pic{
-    width:50%;
-    padding-top: 30px;
-
+    width:60%;
+    padding-right: 30px;
 }
 div.brainstorming_pic img{
     max-height: 100%;
     max-width: 100%;
 }
+div.brainstorming_text{
+    width:40%;
+}
+/*
+div.brainstorming_flexbox p{
+    color:rgb(49,58,55);
+}
+div.innercell{
+    width:30%;
+    
+}
+div.brainstorming_discrip h4{
+    margin-bottom:0;
+}
+*/
+
+
+
 /*Information Architecture*/
 section#IA{
     padding-top: 50px;
