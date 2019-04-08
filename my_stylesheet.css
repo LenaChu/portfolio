@@ -61,6 +61,7 @@ li{
   position: relative;
   overflow: hidden;
   padding-bottom: 5px;
+  color:rgb(49,58,55);
 }
 .hvr-underline-from-center:before {
   content: "";
@@ -69,7 +70,7 @@ li{
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: rgb(85,26,139);
+  background: rgb(49,58,55);
   height: 1px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -110,13 +111,12 @@ div#contact div.button{
     font-weight: bolder;
     font-family:'Raleway';
     letter-spacing: 2px;
-    border: 3px solid rgb(49,58,55);
+    border: 2px solid rgb(49,58,55);
     color:rgb(49,58,55);
     transition:all 0.3s linear;
 }
 .button:hover{
-    background-color:white;
-    color:white;
+    background-color: white;
     cursor:pointer;
 }
 /*Copy Right Declaration*/
@@ -179,7 +179,7 @@ yourElement{
     animation-duration: 6s;
     animation-delay: 3s;
 }
-a#myprojectf{
+a#myproject{
     display: block;
     position: relative;
     top: -80px;
@@ -195,8 +195,8 @@ a#myprojectf{
    background-color: aliceblue;
    padding-top: 50px;
    padding-bottom: 50px;
-   padding-left: 150px;
-   padding-right: 150px;
+   padding-left: 200px;
+   padding-right: 200px;
    display: flex;
    flex-direction: row;
 }
@@ -205,8 +205,8 @@ a#myprojectf{
    background-color: lightgoldenrodyellow;
    padding-top: 50px;
    padding-bottom: 50px;
-   padding-left: 150px;
-   padding-right: 150px;
+   padding-left: 200px;
+   padding-right: 200px;
    display: flex;
    flex-direction: row;
 }
@@ -249,8 +249,8 @@ section.self_introduction{
 	background-color:rgb(240,225,239);
     padding-top:50px;
     padding-bottom:50px;
-    padding-right:150px;
-    padding-left:150px;
+    padding-right:200px;
+    padding-left:200px;
     z-index:-1;
     line-height: 25px;
 }
@@ -275,8 +275,8 @@ section.whatido{
 	background-color:white;
     padding-top:50px;
     padding-bottom:50px;
-    padding-right:150px;
-    padding-left:150px;
+    padding-right:200px;
+    padding-left:200px;
     line-height: 25px;
 }
 div.whatido_flexbox{
@@ -291,8 +291,8 @@ section.whatiequip{
 	background-color:rgb(240,225,239);
     padding-top:50px;
     padding-bottom:50px;
-    padding-right:150px;
-    padding-left:150px;
+    padding-right:200px;
+    padding-left:200px;
     line-height: 25px;
 }
 div.whatiequip_flexbox{
@@ -312,8 +312,8 @@ section.myfacts{
 	background-color:white;
     padding-top:50px;
     padding-bottom:50px;
-    padding-right:150px;
-    padding-left:150px;
+    padding-right:200px;
+    padding-left:200px;
     line-height: 25px;
 }
 section.myfacts span{
@@ -360,8 +360,8 @@ div#overview_wrapper{
 }
 /*Overiew*/
 div#overview{
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top:50px;
     padding-bottom: 50px;
 }
@@ -404,8 +404,8 @@ section#design_process{
     padding-top:50px;
     padding-bottom: 50px;
     background-color: rgb(224,229,223);
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 section#design_process h4{
     color:darkslategray;
@@ -421,8 +421,8 @@ img#design_process_flowchart{
 section#background{
     padding-top:50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size:16px;
     text-align:left;   
 }
@@ -439,8 +439,8 @@ section#background p{
 section#why_med{
     padding-top:50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size:16px;
     text-align:left; 
     background-color:rgb(224,229,223);
@@ -494,8 +494,8 @@ div#why_ad_r2 p{
 section#com_analysis{
     padding-top:50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     line-height: 25px;
     font-size:16px;
     text-align:left; 
@@ -517,8 +517,8 @@ div.takeaways_bullets{
     background-color: rgb(224,229,223);
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size:16px;
     line-height:25px;
 }
@@ -557,8 +557,8 @@ div#eighteen_column{
 section#problem_statement{
     padding-top:50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     line-height: 25px;
     font-size:16px;
     text-align:left; 
@@ -581,8 +581,8 @@ section#problem_statement h2#number{
 section#behavior_factors{
     padding-top:50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     line-height: 25px;
     font-size:16px;
     text-align:left; 
@@ -607,8 +607,8 @@ section#solutions{
     background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size:16px;
     line-height:25px;
 }
@@ -661,8 +661,8 @@ div#thirtytwo_column{
 section#brainstorming{
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size:16px;
     line-height:25px;
     overflow: hidden;
@@ -701,8 +701,8 @@ div.brainstorming_pic img{
 section#IA{
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size:16px;
     line-height:25px;   
 }
@@ -717,8 +717,8 @@ img#IAflow{
 section#design{
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size:16px;
     line-height:25px;   
     background-color: rgb(224,229,223);
@@ -758,8 +758,8 @@ img#homepagemock{
 section#reflections{
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size:16px;
     line-height:25px;   
     background-color:white;
@@ -787,8 +787,8 @@ div.final_column{
 section#next_project{
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size:16px;
     line-height:25px; 
     background-color:rgb(224,229,223);
