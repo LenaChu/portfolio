@@ -47,7 +47,7 @@ li{
 	display:inline-block;
     font-size:15px;
     letter-spacing: 3px;
-    font-weight:600 !important;
+    font-weight:400 !important;
 }
 /*Animation*/
 /* Underline From Center */
@@ -69,8 +69,8 @@ li{
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: rgb(153, 109, 204);
-  height: 2px;
+  background: rgb(85,26,139);
+  height: 1px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
   -webkit-transition-duration: 0.3s;
@@ -84,7 +84,7 @@ li{
 }
 /*Footer Section*/
 div#contact{
-    background-color:rgba(153, 109, 204, 1);
+    background-color:rgb(224,229,223);
     padding-top:60px;
     padding-bottom: 60px;
     width:100%;
@@ -93,7 +93,7 @@ div#contact{
 #intouch{
     font-size:20px;
     text-align: center;
-    color:ghostwhite;
+    color:rgb(49,58,55);
 }
 div#contact div.button{
     width:200px;
@@ -110,12 +110,12 @@ div#contact div.button{
     font-weight: bolder;
     font-family:'Raleway';
     letter-spacing: 2px;
-    border: 3px solid white;
-    color:white;
+    border: 3px solid rgb(49,58,55);
+    color:rgb(49,58,55);
     transition:all 0.3s linear;
 }
 .button:hover{
-    background-color:rgba(117, 217, 221, 0.5);
+    background-color:white;
     color:white;
     cursor:pointer;
 }
@@ -130,13 +130,13 @@ footer.copyright{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
-    background-color: rgba(117, 217, 221, 0.5);
-    color:black;
+    background-color: rgb(240,225,239);
+    color:rgb(49,58,55);
     letter-spacing: 2px; 
 }
 div.copyright p{
     font-size:14px;
-    color:darkgray;
+    color:rgb(90,90,90);
     text-align: center;
 }
 a#icon_source{
@@ -144,13 +144,13 @@ a#icon_source{
     font-size: bold;
 }
 img.svg social-link:hover path{
-    fill: black;
+    fill: rgb(49,58,55);
 }
 /*Index page*/
 section.index_banner{
 	margin-top:80px;
 	width: 100%;
-	background-color:rgba(117, 217, 221, 0.5);
+	background-color: rgb(240,225,239);
 	height: 300px;
 	font-family: 'Raleway';
     padding-top:20px;
@@ -186,26 +186,9 @@ a#myprojectf{
     visibility: hidden;
 }
 /*Project Gallery*/
-/*
-#project-gallery{
-    top:-80px;
-}*/
 #scrolldown-gallery{
-    top:-80px;
     width:100%;
-
 }
-.gallery-container{
-  width:100%;
-  top:-80px;
-}
-/*
-.gallery-item{
-   width:100%;
-   display: flex;
-   flex-direction: row;
-}
-*/
 
 .gallery-item-meuni{
    height:200px;
@@ -263,7 +246,7 @@ a#myprojectf{
 /*Self-Introduction*/
 section.self_introduction{
 	margin-top:80px;
-	background-color:white;
+	background-color:rgb(240,225,239);
     padding-top:50px;
     padding-bottom:50px;
     padding-right:150px;
@@ -289,7 +272,7 @@ img#mountaingirl{
     max-width: 100%;
 }
 section.whatido{
-	background-color:antiquewhite;
+	background-color:white;
     padding-top:50px;
     padding-bottom:50px;
     padding-right:150px;
@@ -305,7 +288,7 @@ div.whatido_flexbox div#skill{
     text-align: center;
 }
 section.whatiequip{
-	background-color:azure;
+	background-color:rgb(240,225,239);
     padding-top:50px;
     padding-bottom:50px;
     padding-right:150px;
@@ -343,16 +326,16 @@ section.MEUNI_intro{
     position:relative;
 	margin-top:80px;
 	width: 100%;
-	background-color:rgb(153, 109, 204);
+	background-color:rgb(240,225,239);
     padding-top:20px;
     padding-bottom:20px;
     z-index:-1;
 }
 section.MEUNI_intro p{
-    color:ghostwhite;
+    color:rgb(109,109,109);
 }
 section.MEUNI_intro h2{
-    color:ghostwhite;
+    color:rgb(49,58,55);
 }
 .title{
     width:100%;
@@ -420,7 +403,7 @@ div.four_column{
 section#design_process{
     padding-top:50px;
     padding-bottom: 50px;
-    background-color: #fdf2c8;
+    background-color: rgb(224,229,223);
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -460,7 +443,7 @@ section#why_med{
     padding-right: 150px;
     font-size:16px;
     text-align:left; 
-    background-color:rgba(235,255,255,1);
+    background-color:rgb(224,229,223);
 }
 .meditation_bnt_pic_container{
     text-align: center;
@@ -531,7 +514,7 @@ img#competitor_table{
 }
 /*Takeaways*/
 div.takeaways_bullets{
-    background-color: #fdf2c8;
+    background-color: rgb(224,229,223);
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 150px;
@@ -603,7 +586,7 @@ section#behavior_factors{
     line-height: 25px;
     font-size:16px;
     text-align:left; 
-    background-color: rgba(235,255,255,1);
+    background-color: rgb(224,229,223);
 }
 
 div.behavior_factors_flexbox_row{
@@ -634,7 +617,7 @@ div.solutions_bullets_row{
     flex-direction: row;
 }
 div.solutions_bullets_row em{
-    color:rgb(72,51,153);
+    color:coral;
     margin-right: 10px;
 }
 div#twentyfive_column{
@@ -683,10 +666,10 @@ section#brainstorming{
     font-size:16px;
     line-height:25px;
     overflow: hidden;
-    background-color:rgb(153, 109, 204);    
+    background-color:rgb(240,225,239);    
 }
 section#brainstorming p{
-    color:ghostwhite;
+    color:rgb(101,101,101);
 }
 
 div.brainstorming_flexbox{
@@ -738,7 +721,7 @@ section#design{
     padding-right: 150px;
     font-size:16px;
     line-height:25px;   
-    background-color: antiquewhite;
+    background-color: rgb(224,229,223);
 }
 div.picture_set_flexbox{
     display: flex;
@@ -808,14 +791,13 @@ section#next_project{
     padding-right: 150px;
     font-size:16px;
     line-height:25px; 
-    background-color:rgb(153, 109, 204);
-    color: ghostwhite;
+    background-color:rgb(224,229,223);
 }
 section#next_project h4{
-    color: ghostwhite;
+    color: rgb(49,58,55);
 }
 section#next_project h2{
-    color: ghostwhite;
+    color: rgb(49,58,55);
 }
 div.next_project_flexbox{
     display: flex;
@@ -839,16 +821,16 @@ section.coursecatalog_banner{
     position:relative;
 	margin-top:80px;
 	width: 100%;
-	background-color:darkseagreen;
+	background-color:rgb(240,225,239);
     padding-top:20px;
     padding-bottom:20px;
     z-index:-1;
 }
 section.coursecatalog_banner p{
-    color:ghostwhite;
+    color:rgb(109,109,109);
 }
 section.coursecatalog_banner h2{
-    color:ghostwhite;
+    color:rgb(49,58,55);
 }
 section.coursecatalog_banner div.title{
     width:100%;
