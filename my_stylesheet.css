@@ -85,7 +85,7 @@ li{
 }
 /*Footer Section*/
 div#contact{
-    background-color:rgb(224,229,223);
+    background-color:rgb(255,250,244);
     padding-top:60px;
     padding-bottom: 60px;
     width:100%;
@@ -116,7 +116,7 @@ div#contact div.button{
     transition:all 0.3s linear;
 }
 .button:hover{
-    background-color: white;
+    background-color: rgb(240,225,239);
     cursor:pointer;
 }
 /*Copy Right Declaration*/
@@ -192,7 +192,7 @@ a#myproject{
 
 .gallery-item-meuni{
    height:200px;
-   background-color: aliceblue;
+   background-color: white;
    padding-top: 50px;
    padding-bottom: 50px;
    padding-left: 200px;
@@ -202,7 +202,7 @@ a#myproject{
 }
 .gallery-item-coursectl{
    height:200px;
-   background-color: lightgoldenrodyellow;
+   background-color: rgb(255,250,244);
    padding-top: 50px;
    padding-bottom: 50px;
    padding-left: 200px;
@@ -288,7 +288,7 @@ div.whatido_flexbox div#skill{
     text-align: center;
 }
 section.whatiequip{
-	background-color:rgb(240,225,239);
+	background-color:rgb(255,250,244);
     padding-top:50px;
     padding-bottom:50px;
     padding-right:200px;
@@ -379,7 +379,6 @@ div#overview p{
   font-style: normal;
   text-align: left;
   line-height: 25px;
-  font-size:16px;
   font-weight:lighter;
 }
 div.one_column{
@@ -403,7 +402,7 @@ div.four_column{
 section#design_process{
     padding-top:50px;
     padding-bottom: 50px;
-    background-color: rgb(224,229,223);
+    background-color: rgb(255,250,244);
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -423,7 +422,6 @@ section#background{
     padding-bottom: 50px;
     padding-left: 200px;
     padding-right: 200px;
-    font-size:16px;
     text-align:left;   
 }
 
@@ -432,7 +430,6 @@ section#background p{
   text-align: justify;
   text-justify:inter-ideograph;
   line-height: 25px;
-  font-size:16px;
   font-weight:lighter;
 }
 /*Why Meditation*/
@@ -443,7 +440,7 @@ section#why_med{
     padding-right: 200px;
     font-size:16px;
     text-align:left; 
-    background-color:rgb(224,229,223);
+    background-color:rgb(255,250,244);
 }
 .meditation_bnt_pic_container{
     text-align: center;
@@ -514,7 +511,7 @@ img#competitor_table{
 }
 /*Takeaways*/
 div.takeaways_bullets{
-    background-color: rgb(224,229,223);
+    background-color: rgb(255,250,244);
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 200px;
@@ -586,7 +583,7 @@ section#behavior_factors{
     line-height: 25px;
     font-size:16px;
     text-align:left; 
-    background-color: rgb(224,229,223);
+    background-color: rgb(255,250,244);
 }
 
 div.behavior_factors_flexbox_row{
@@ -730,7 +727,7 @@ section#design{
     padding-right: 200px;
     font-size:16px;
     line-height:25px;   
-    background-color: rgb(224,229,223);
+    background-color: rgb(255,250,244);
 }
 div.picture_set_flexbox{
     display: flex;
@@ -800,7 +797,7 @@ section#next_project{
     padding-right: 200px;
     font-size:16px;
     line-height:25px; 
-    background-color:rgb(224,229,223);
+    background-color:rgb(255,250,244);
 }
 section#next_project h4{
     color: rgb(49,58,55);
