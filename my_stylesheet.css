@@ -26,7 +26,8 @@ header#my_header{
 }
 #nav_Logo{
     padding-left:10%;
-    padding-top:5px;
+    padding-top:12.5px;
+    display: inline-block;
 }
 #Logo{
     max-height: 100%;
@@ -48,6 +49,7 @@ li{
     font-size:15px;
     letter-spacing: 3px;
     font-weight:400 !important;
+    font-family: 'Crimson Text', serif;
 }
 /*Animation*/
 /* Underline From Center */
