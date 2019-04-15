@@ -20,7 +20,6 @@ header#my_header{
     top:0;
     width:100%;
     z-index:999;
-    opacity: 1;
     background-color:white;
     opacity:0.9;
 }
@@ -148,6 +147,8 @@ a#icon_source{
 img.svg social-link:hover path{
     fill: rgb(49,58,55);
 }
+
+
 /*Index page*/
 section.index_banner{
 	margin-top:80px;
@@ -195,20 +196,14 @@ a#myproject{
 .gallery-item-meuni{
    height:200px;
    background-color: white;
-   padding-top: 50px;
-   padding-bottom: 50px;
-   padding-left: 200px;
-   padding-right: 200px;
+   padding: 50px 200px 50px 200px;
    display: flex;
    flex-direction: row;
 }
 .gallery-item-coursectl{
    height:200px;
    background-color: rgb(255,250,244);
-   padding-top: 50px;
-   padding-bottom: 50px;
-   padding-left: 200px;
-   padding-right: 200px;
+   padding: 50px 200px 50px 200px;
    display: flex;
    flex-direction: row;
 }
@@ -249,10 +244,7 @@ a#myproject{
 section.self_introduction{
 	margin-top:80px;
 	background-color:rgb(240,225,239);
-    padding-top:50px;
-    padding-bottom:50px;
-    padding-right:200px;
-    padding-left:200px;
+    padding: 50px 200px 50px 200px;
     z-index:-1;
     line-height: 25px;
 }
@@ -275,10 +267,7 @@ img#mountaingirl{
 }
 section.whatido{
 	background-color:white;
-    padding-top:50px;
-    padding-bottom:50px;
-    padding-right:200px;
-    padding-left:200px;
+    padding: 50px 200px 50px 200px;
     line-height: 25px;
 }
 div.whatido_flexbox{
@@ -291,10 +280,7 @@ div.whatido_flexbox div#skill{
 }
 section.whatiequip{
 	background-color:rgb(255,250,244);
-    padding-top:50px;
-    padding-bottom:50px;
-    padding-right:200px;
-    padding-left:200px;
+    padding: 50px 200px 50px 200px;
     line-height: 25px;
 }
 div.whatiequip_flexbox{
@@ -312,10 +298,7 @@ div.whatiequip_flexbox div#trait p{
 }
 section.myfacts{
 	background-color:white;
-    padding-top:50px;
-    padding-bottom:50px;
-    padding-right:200px;
-    padding-left:200px;
+    padding: 50px 200px 50px 200px;
     line-height: 25px;
 }
 section.myfacts span{
@@ -362,10 +345,7 @@ div#overview_wrapper{
 }
 /*Overiew*/
 div#overview{
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top:50px;
-    padding-bottom: 50px;
+    padding: 50px 200px 50px 200px;
 }
 
 h4#overview_h{
@@ -402,11 +382,8 @@ div.four_column{
 }
 /*Design Process*/
 section#design_process{
-    padding-top:50px;
-    padding-bottom: 50px;
+    padding: 50px 200px 50px 200px;
     background-color: rgb(255,250,244);
-    padding-left: 200px;
-    padding-right: 200px;
 }
 section#design_process h4{
     color:darkslategray;
@@ -420,10 +397,7 @@ img#design_process_flowchart{
 }
 
 section#background{
-    padding-top:50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px;
     text-align:left;   
 }
 
@@ -436,10 +410,7 @@ section#background p{
 }
 /*Why Meditation*/
 section#why_med{
-    padding-top:50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px;
     font-size:16px;
     text-align:left; 
     background-color:rgb(255,250,244);
@@ -453,48 +424,9 @@ img#meditaion_bnt{
     max-height: 100%;
     max-width: 100%;
 }
-/*
-div#why_ad_r1{
-    padding-top:30px;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-}
-div#why_ad_r2{
-    padding-top:30px;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-}
-div.nine_column{
-    width:50%;
-    text-align: center;
-}
 
-div.ten_column{
-    width:50%;
-    text-align: center;
-}
-div.eleven_column{
-    width:50%;
-    text-align: center;
-}
-div.twelve_column{
-    width:50%;
-    text-align: center;
-}
-div#why_ad_r1 p{
-    text-align: center;
-}
-div#why_ad_r2 p{
-    text-align: center;
-}
-*/
 section#com_analysis{
-    padding-top:50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px;
     line-height: 25px;
     font-size:16px;
     text-align:left; 
@@ -514,10 +446,7 @@ img#competitor_table{
 /*Takeaways*/
 div.takeaways_bullets{
     background-color: rgb(255,250,244);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px;
     font-size:16px;
     line-height:25px;
 }
@@ -554,10 +483,7 @@ div#eighteen_column{
 }
 /*Problem Statement*/
 section#problem_statement{
-    padding-top:50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px;
     line-height: 25px;
     font-size:16px;
     text-align:left; 
@@ -578,10 +504,7 @@ section#problem_statement h2#number{
 }
 /*Behavior Theory*/
 section#behavior_factors{
-    padding-top:50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px;
     line-height: 25px;
     font-size:16px;
     text-align:left; 
@@ -604,10 +527,7 @@ section#behavior_factors h2#number{
 /*Solutions*/
 section#solutions{
     background-color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px; 
     font-size:16px;
     line-height:25px;
 }
@@ -658,21 +578,12 @@ div#thirtytwo_column{
 }
 /*Brainstorming*/
 section#brainstorming{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px;
     font-size:16px;
     line-height:25px;
     overflow: hidden;
     background-color:rgb(240,225,239);    
 }
-section#brainstorming p{
-    color:rgb(101,101,101);
-}
-
-
-
 
 
 div.brainstorming_flexbox{
@@ -690,27 +601,13 @@ div.brainstorming_pic img{
 div.brainstorming_text{
     width:40%;
 }
-/*
-div.brainstorming_flexbox p{
-    color:rgb(49,58,55);
-}
-div.innercell{
-    width:30%;
-    
-}
-div.brainstorming_discrip h4{
-    margin-bottom:0;
-}
-*/
+
 
 
 
 /*Information Architecture*/
 section#IA{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px;
     font-size:16px;
     line-height:25px;   
 }
@@ -723,10 +620,7 @@ img#IAflow{
 }
 /*design*/
 section#design{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px;
     font-size:16px;
     line-height:25px;   
     background-color: rgb(255,250,244);
@@ -764,10 +658,7 @@ img#homepagemock{
 }
 /*Reflection*/
 section#reflections{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px;
     font-size:16px;
     line-height:25px;   
     background-color:white;
@@ -793,10 +684,7 @@ div.final_column{
 
 /*Next Project*/
 section#next_project{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 50px 200px 50px 200px;
     font-size:16px;
     line-height:25px; 
     background-color:rgb(255,250,244);
@@ -885,6 +773,6 @@ section.coursecatalog_banner div.brief_intro p{
         opacity: 1;
         transform: translateY(0);
     } 
+    
+    
 
-
-/*overlay animation*/
