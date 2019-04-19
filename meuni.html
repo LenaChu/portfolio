@@ -2,7 +2,7 @@
 <html>
     <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>Meditation App</title>
     <!--Font-->    
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,600,700,800,900" rel="stylesheet">
@@ -53,7 +53,8 @@
         }
         p{ 
            color:rgb(49,58,55);
-           font-size:16px;
+           line-height: 25px;
+           font-size:16px; 
         }
          #workBttn{
             font-weight: bold;
@@ -62,7 +63,7 @@
     </head>
     <body>
     <div id="content_wrapeer">
-        <!--Header-->
+        <!--Fixed Header-->
 <header id="my_header">
                <div class="nav-container">
                    <div class="logo-container">
@@ -120,10 +121,10 @@
             </div>
         </section>
         <!--Background-->
-        <section id="background"><div><h3>BACKGORUND</h3><p>Meditation has long been under scientific investigation and proven beneficial to mental health. It is not just effective; even few minutes of meditation can improve resilience, it is also easy to learn. However, for people considering attending a meditation class, time and location are always two big challenges.</p><p>Many meditation apps have brought their solutions to address those challenges. While after surveying the main players in the market, we found there are still some shortcomings within the current solutions. Therefore, we decided to propose our solution based on our research.</p> </div>
+        <section id="background"><div class="background_container"><h3>BACKGORUND</h3><p>Meditation has long been under scientific investigation and proven beneficial to mental health. It is not just effective; even few minutes of meditation can improve resilience, it is also easy to learn. However, for people considering attending a meditation class, time and location are always two big challenges.</p><p>Many meditation apps have brought their solutions to address those challenges. While after surveying the main players in the market, we found there are still some shortcomings within the current solutions. Therefore, we decided to propose our solution based on our research.</p> </div>
         </section>
         <!--Why Meditation-->
-        <section id="why_med"><div class="why_content"><h3>WHY MEDITATION?</h3><div class="meditation_bnt_pic_container"><img id="meditaion_bnt" src="pic/meditation_benefit.png" alt="Benefits of Meditation" width="85%"></div></div>
+        <section id="why_med"><div class="why_container"><h3>WHY MEDITATION?</h3><div class="meditation_bnt_pic_container"><img id="meditaion_bnt" src="pic/meditation_benefit.png" alt="Benefits of Meditation" width="85%"></div></div>
             
             <!--<div id="why_ad_r1"><div class="nine_column"><img id="why_access" src="pic/meditation_ad/happy.svg" width="100px"><h4 id="why_h">ACCESSIBILITY</h4><p>Easy to learn and everyone can learn</p></div>
             <div class="ten_column"><img id="why_flex" src="pic/meditation_ad/freedom.svg" width="100px"><h4 id="why_h">FLEXIBILITY</h4>
@@ -145,7 +146,7 @@
         </section>
                 <!--Takeaways-->
     <section id="takeaways">
-    <div class="takeaways_bullets"><h3>TAKEAWAYS</h3>
+    <div class="takeaways_contanier"><h3>TAKEAWAYS</h3>
         <p>After finishing the comparision, we summarized our findings and distilled 3 takeaways.</p>
     <div class="bullet_flexbox_row">
         <div id="thirdteen_column"><img id="magnifier" src="pic/magnifying-glass.svg" alt="magnifier" width="40px;"></div>
@@ -159,27 +160,35 @@
     </div>
     </section>
     <section id="problem_statement">
+        <div class="problemstatement_container">
         <h3>PROBLEMS</h3>
         <p>Although we've seen many features provided by the competitors, there are still some gaps we think should be filled. When talking about the goal of forming a lasting habit, the most challenging thing for a meditation app is how to keep users using it. We found several problems might occur when the current solutions try to achieve this goal.</p>
         <div class="problemstatement_flexbox_row">
+            <div class="problemstatement_flexbox_row_responsive">
                 <div class="nineteen_column slideanim"><h2 id="number">01</h2><h4>HARD TO PERSIST</h4><p>Even though many gamified features included, beginners still can't persist to form a reqular habit</p></div>
                 <div class="twentyone_column slideanim"><h2 id="number">02</h2><h4>NOT MEET EXPECTAION</h4><p>The content with specific interest fails to discriminate it from the others. The interest may not be perceived</p></div>
+                </div>
+            <div class="problemstatement_flexbox_row_responsive">
                 <div class="twenty_column slideanim"><h2 id="number">03</h2><h4>LACK OF SUPPORT</h4><p>There is no place for users to seek advices when they find something challenging with the practice</p></div>
                 <div class="twentyone_column slideanim"><h2 id="number">04</h2><h4>LACK OF MEASURE</h4><p>There is no physiological measurement to record the change of body for users to obtain senses of the benefits.</p></div>
+            </div>
+            </div>
             </div>
     </section>
     <!--Behavior Theory-->
     <section id="behavior_factors">
+        <div class="behaviorfactors_container">
         <div class="theory_intro"><h3>BEHAVIORAL FACTORS</h3><p>In addition to competitive analysis, we also reviewed Social Network Theory and Intergrated Behavioral Model that are deprived from the discipline of public health. Such behavior theories or models have attempted to explain how people form their health behaviors.</p><p>The theory and model gave us directions about how to trigger a behavioral change and how to keep the behavior. We found that motivation is the key factor for people to consider to change their health behaviors. While to from a long term health behavior, more factors come to play a role in the process, including self-efficacy, social support. Our solutions would focus on enhancing these three behavioral factors.</p></div>
         <div class="behavior_factors_flexbox_row">
             <div class="twentytwo_column slideanim" ><h2 id="number">01</h2><h4>MOTIVATION</h4><p>Motivation is the trigger for the individual to consider bahavioral change. It can be reinforced by creating feedback or reward, and foreseeing the positive outcome</p></div>
             <div class="twentythree_column slideanim" ><h2 id="number">02</h2><h4>SELF-EFFICACY</h4><p>Self-efficacy is the belief that the individual can perform a behavior. It can be enhanced by providing information, skills training and self-regulation</p></div>
             <div class="twentyfour_column slideanim" ><h2 id="number">03</h2><h4>SOCIAL SUPPORT</h4><p>Social support is the thrust from the surrounding communities; It can serve as the source of information and emotional support; the successful predecessor can also become the social model </p></div> 
         </div>
+            </div>
                 </section>
     <!--Solutions-->
     <section id="solutions">
-            <div class="solutions_bullets"><h3>SOLUTIONS</h3>
+            <div class="solutions_container"><h3>SOLUTIONS</h3>
                 <p>Considering the problems among the current competitors and the behavioral factors taken from the behavior theory and model, we came up with 4 solutions.</p> 
     <div class="solutions_bullets_row">
         <div id="twentyfive_column"><img id="bulb" src="pic/creative.svg" alt="bulb" width="50px;"></div>
@@ -200,24 +209,25 @@
                 </section>
         <!--Brainstorming-->
     <section id="brainstorming">
+        <div class="brainstorming_container">
         <div class="brainstorming_flexbox">
         <div class="brainstorming_pic"><img src="pic/brainstorming.png" alt="Brainstorming"></div>
         <div class="brainstorming_text">
         <h3>BRAINSTORMING</h3><p>We started to ideate composed features of our app based on our solutions. We proposed more than 20 features and listed the notes. After further examination, we filtered out less important ones and determined 3 main sections and 9 sub-functions. </p><p>The game section is consisted of class, timer, and collection. When users complete a practice through class or timer, they will either gain points or be rewarded with new collection, which they can use to change their home page decoration. In the community section, there are public and private groups that allow users to join, view posts, and respond or create posts. An inbox will further support interpersonal communication. Users can also create or join events to engage in a group meditation not limited to remotely or face-to-face. Finally, the profile section is for users to track their performance and heart beat rate measurement.</p></div>
         </div>
-        
-        <!-- Surplus flexbox
-        <div class="brainstorming_flexbox">
-            <div class="innercell"><h4>GAME</h4><p>Class<br/>Timer<br/>Collection</p></div><div class="innercell"><h4>COMMUNITY</h4><p>Event<br/>Group<br/>Inbox</p></div><div class="innercell"><h4>PROFILE</h4><p>Stats<br/>HBR tracker<br/>Setting</p></div></div> -->
+            </div>
                 </section>
         <section id="IA">
+            <div class="IA_container">
             <h3>INFORMATION ARCHITECTURE</h3>
             <div class="IA_pic">
                 <img id="IAflow" src="pic/MeUni_IA.png" alt="Information Architecture" width="700px;">
             </div>
+                </div>
                 </section>
                 <!--Design-->
             <section id="design">
+                <div class="design_container">
             <h3>DESIGN</h3>
                 <p>After establishing the information architecture, we started to implement our design. We firstly clarifed 9 task flows and planned the preliminary interfaces by hand sketches.</p> 
                 <div class="picture_set_flexbox"><div id="thirtyfour_column"><img id="taskflow" src="pic/taskflow/IMG_1813.JPG" alt="Task Flow"></div><div id="thirtyfive_column"><img id="taskflow" src="pic/taskflow/IMG_1814.JPG" alt="Task Flow"></div><div id="thirtysix_column"><img id="taskflow" src="pic/taskflow/IMG_1815.JPG" alt="Taks Flow"></div></div> 
@@ -227,18 +237,20 @@
                 <p>Then we developed middle-fidelity wireframes. The system we chose is iOS. In order to fast generate the overall look of the interfaces, we adopted some UI elements from the iOS Interface Guidelines, like the navigation bar and the tabbar. Here is a demonstration of the game section wireframes with UI flow indicators. The tool I used to draw the wireframes is Adobe XD.</p>
                 <img id="UIflow" src="pic/MeUni_UIflow.png" alt="Wireframe" width="800px;">
             </div>
-             
+             </div>
                 </section>
                 <!--Reflections-->
-                <section id="reflections"><h3>REFLECTIONS</h3><div class="reflection_flexbox"><div class="iphone_mockup"><img id="homepagemockup" src="pic/MeUni_HomePage.png" width="300px;"></div><div class="final_column"><p>In this project, I learned how to conduct competitive analysis and review research theories to support our design decisions. For design planning, we used brainstorming, task flows, and hand sketching interfaces to help us visualize the scope of our design. For UI design, I attempted several design tools including Adobe Illustrator, Adobe XD, and Figma, a collaborative design platform. I obtained expierences in designing a mobile product from ideating to implementing and team collaboration.</p><p>On the other hand, we also faced many challenges. For example, when we started addressing task flows, we found the scope of our design is bigger than we thought, and many details for interaction need to be considered. While it was challenging, it gave us reflections how important information architecture is. The game was also a tricky one. About game engagement, we discussed aspects about visual design and story telling. Those aspects may be the directions for our refining. Finally, it is pitiful that we didn't have time to validate our solutions by interview or usability test, and that's what I want to enhance in my next project.</p></div></div></section>
+                <section id="reflections"><div class="reflections_container"><h3>REFLECTIONS</h3><div class="reflection_flexbox"><div class="iphone_mockup"><img id="homepagemockup" src="pic/MeUni_HomePage.png" width="300px;"></div><div class="final_column"><p>In this project, I learned how to conduct competitive analysis and review research theories to support our design decisions. For design planning, we used brainstorming, task flows, and hand sketching interfaces to help us visualize the scope of our design. For UI design, I attempted several design tools including Adobe Illustrator, Adobe XD, and Figma, a collaborative design platform. I obtained expierences in designing a mobile product from ideating to implementing and team collaboration.</p><p>On the other hand, we also faced many challenges. For example, when we started addressing task flows, we found the scope of our design is bigger than we thought, and many details for interaction need to be considered. While it was challenging, it gave us reflections how important information architecture is. The game was also a tricky one. About game engagement, we discussed aspects about visual design and story telling. Those aspects may be the directions for our refining. Finally, it is pitiful that we didn't have time to validate our solutions by interview or usability test, and that's what I want to enhance in my next project.</p></div></div></div></section>
         <!--Next Project-->
                 <section id="next_project">
+                    <div class="nextproject_container">
                     <a href="coursecatalog.html" alt="Course Catalog Website">
                         <div class="next_project_flexbox">
                 <div class="next_project_indicator"><h4>NEXT PROJECT></h4></div>
                 <div class="next_project_name"><h2>COURSE CATALOG WEBSITE</h2></div>
                              </div>
                         </a>    
+                        </div>
                 </section>
            
         <!--Copy Right Declaration-->

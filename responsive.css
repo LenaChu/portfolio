@@ -2,8 +2,10 @@
 
 /* iPhone 7 Portrait and Landscape */
 @media only screen 
-and (min-device-width : 375px) 
-    and (max-device-width : 667px){ 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
       /*Shared Component*/
       /*Header*/
       label{
@@ -69,7 +71,7 @@ and (min-device-width : 375px)
       /*Project Gallery*/
       .gallery-item-meuni{
           display:block;
-          padding:20px 20px 10px 20px;
+          padding:20px;
       }
       .text-wraper-project-meuni{
           width:100%;
@@ -79,14 +81,224 @@ and (min-device-width : 375px)
       }
       .gallery-item-coursectl{
           display:block;
-          padding:20px 20px 10px 20px;
+          padding:20px;
           background-color: rgb(255,250,244);
       }
       .text-wraper-project-coursectl{
           width:100%;
       }
+      section{
+          max-width:100%;
+      }
+      /*MeUni Page Starts*/
+      .title{
+          text-align: center;
+      }
+      .brief_intro{
+          padding-left:20px;
+          padding-right:20px;
+      }
+      #overview{
+          padding: 20px;
+      }
+      .overview_briefintro{
+          width:100%;
+      }
+      div#overview_detail{
+          width:100%;
+          font-size:12px;
+          flex-direction: column;
+      }
+      div.one_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      div.two_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      div.three_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      div.four_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      #dp_content{
+          padding:20px;
+      }
+      .background_container{
+          padding:20px;
+      }
+      .why_container{
+          padding:20px;
+      }
+      .com_summary{
+          padding:20px;
+      }
+      .takeaways_contanier{
+          padding:20px;
+      }
+      div#thirdteen_column{
+          width:10%;
+          padding-left:0;
+          padding-right:20px;
+      }
+      div#fifteen_column{
+          width:10%;
+          padding-left:0;
+          padding-right:20px;
+      }
+      div#seventeen_column{
+          width:10%;
+          padding-left:0;
+          padding-right:20px;
+      }
+      .problemstatement_container{
+          padding:20px;
+      }
+      .problemstatement_flexbox_row{
+          display:block;
+      }
+      .problemstatement_flexbox_row_responsive{
+          flex-direction: column;
+      }
+      div.problemstatement_flexbox_row div{
+          width:100%
+      }
+      .behaviorfactors_container{
+          padding:20px;
+      }
+      div.behavior_factors_flexbox_row{
+          flex-direction: column;
+      }
+      div.behavior_factors_flexbox_row div{
+          width:100%;
+      }
+      .solutions_container{
+          padding:20px;
+      }
+      div#twentyfive_column{
+          width:10%;
+         padding-right:20px;
+          padding-left:0;
+      }
+      div#twentyseven_column{
+          width:10%;
+          padding-right:20px;
+          padding-left:0;
+      }
+      div#twentynine_column{    
+          width:10%;
+          padding-right:20px;
+          padding-left:0;
+      }
+      div#thirtyone_column{
+          width:10%;
+          padding-right:20px;
+          padding-left:0;
+      }
+      .brainstorming_container{
+          padding:20px;
+      }
+      div.brainstorming_pic{
+          width:100%;
+      }
+      div.brainstorming_text{
+          width:100%;
+      }
       
+      div.brainstorming_flexbox{
+          flex-direction: column;
+      }
+      .IA_container{
+          padding:20px;
+      }
+      .design_container{
+          padding:20px;
+      }
+      div.picture_set_flexbox{
+          display:none;
+      }
+      .reflections_container{
+          padding:20px;
+      }
+      div.reflection_flexbox{
+          display:flex;
+          flex-direction: column;
+      }
+      div.iphone_mockup{
+          width:100%;
+      }
+      div.final_column{
+          padding:10px;
+          width:100%;
+      }
+      .nextproject_container{
+          padding:20px;
+      }
+      div.next_project_name{
+          padding-left: 100px
+      }
+      /*Course Catalog starts*/
+      /*About page starts*/
+      .selfintro_container{
+          padding:20px;
+      }
+      div.mountaingirl_flexbox{
+          flex-direction: column;
+      }
+      div.mountaingirl_pic{
+          width:100%;
+      }
+      div.mountaingirl_intro{
+          width:100%;
+          padding-left:0;
+          margin-top:10px;
+      }
+      .whatido_container{
+          padding:20px;
+      }
+      div.whatido_flexbox{
+          flex-direction: column;
+      }
+      div.whatido_flexbox div#skill{
+          width:100%;
+          margin-top:10px;
+      }
+      .whatiequip_container{
+          padding:20px; 
+      }
+      .whatiequip_flexbox{
+          flex-direction: column;
+      }
+      div.whatiequip_flexbox div#trait{
+          width:100%;
+      }
+      div.whatiequip_flexbox div#trait p{
+          padding:0;
+      }
+      .myfacts_container{
+          padding:20px;
+      }     
+      section.myfacts span{
+          margin-right:0;
+          margin-top:10px;
+      }
+          
 }
+      
+      
+      
 
 
 
@@ -95,7 +307,7 @@ and (min-device-width : 375px)
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-      /*Shared Component*/
+         /*Shared Component*/
       /*Header*/
       label{
         display: block;
@@ -120,10 +332,6 @@ and (min-device-width : 375px)
       #toggle:checked + .menu{
           display:block;
       }
-       /*
-      section{
-          padding:20px 20px 10px 20px;
-      }*/
       /*Footer*/
       #contact{
           padding-top:10px;
@@ -164,7 +372,7 @@ and (min-device-width : 375px)
       /*Project Gallery*/
       .gallery-item-meuni{
           display:block;
-          padding:20px 20px 10px 20px;
+          padding:20px;
       }
       .text-wraper-project-meuni{
           width:100%;
@@ -174,13 +382,220 @@ and (min-device-width : 375px)
       }
       .gallery-item-coursectl{
           display:block;
-          padding:20px 20px 10px 20px;
+          padding:20px;
           background-color: rgb(255,250,244);
       }
       .text-wraper-project-coursectl{
           width:100%;
       }
+      section{
+          max-width:100%;
+      }
+      /*MeUni Page Starts*/
+      .title{
+          text-align: center;
+      }
+      .brief_intro{
+          padding-left:20px;
+          padding-right:20px;
+      }
+      #overview{
+          padding: 20px;
+      }
+      .overview_briefintro{
+          width:100%;
+      }
+      div#overview_detail{
+          width:100%;
+          font-size:12px;
+          flex-direction: column;
+      }
+      div.one_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      div.two_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      div.three_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      div.four_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      #dp_content{
+          padding:20px;
+      }
+      .background_container{
+          padding:20px;
+      }
+      .why_container{
+          padding:20px;
+      }
+      .com_summary{
+          padding:20px;
+      }
+      .takeaways_contanier{
+          padding:20px;
+      }
+      div#thirdteen_column{
+          width:10%;
+          padding-left:0;
+          padding-right:20px;
+      }
+      div#fifteen_column{
+          width:10%;
+          padding-left:0;
+          padding-right:20px;
+      }
+      div#seventeen_column{
+          width:10%;
+          padding-left:0;
+          padding-right:20px;
+      }
+      .problemstatement_container{
+          padding:20px;
+      }
+      .problemstatement_flexbox_row{
+          display:block;
+      }
+      .problemstatement_flexbox_row_responsive{
+          flex-direction: column;
+      }
+      div.problemstatement_flexbox_row div{
+          width:100%
+      }
+      .behaviorfactors_container{
+          padding:20px;
+      }
+      div.behavior_factors_flexbox_row{
+          flex-direction: column;
+      }
+      div.behavior_factors_flexbox_row div{
+          width:100%;
+      }
+      .solutions_container{
+          padding:20px;
+      }
+      div#twentyfive_column{
+          width:10%;
+         padding-right:20px;
+          padding-left:0;
+      }
+      div#twentyseven_column{
+          width:10%;
+          padding-right:20px;
+          padding-left:0;
+      }
+      div#twentynine_column{    
+          width:10%;
+          padding-right:20px;
+          padding-left:0;
+      }
+      div#thirtyone_column{
+          width:10%;
+          padding-right:20px;
+          padding-left:0;
+      }
+      .brainstorming_container{
+          padding:20px;
+      }
+      div.brainstorming_pic{
+          width:100%;
+      }
+      div.brainstorming_text{
+          width:100%;
+      }
       
+      div.brainstorming_flexbox{
+          flex-direction: column;
+      }
+      .IA_container{
+          padding:20px;
+      }
+      .design_container{
+          padding:20px;
+      }
+      div.picture_set_flexbox{
+          display:none;
+      }
+      .reflections_container{
+          padding:20px;
+      }
+      div.reflection_flexbox{
+          display:flex;
+          flex-direction: column;
+      }
+      div.iphone_mockup{
+          width:100%;
+      }
+      div.final_column{
+          padding:10px;
+          width:100%;
+      }
+      .nextproject_container{
+          padding:20px;
+      }
+      div.next_project_name{
+          padding-left: 100px
+      }
+      /*Course Catalog starts*/
+      /*About page starts*/
+      .selfintro_container{
+          padding:20px;
+      }
+      div.mountaingirl_flexbox{
+          flex-direction: column;
+      }
+      div.mountaingirl_pic{
+          width:100%;
+      }
+      div.mountaingirl_intro{
+          width:100%;
+          padding-left:0;
+          margin-top:10px;
+      }
+      .whatido_container{
+          padding:20px;
+      }
+      div.whatido_flexbox{
+          flex-direction: column;
+      }
+      div.whatido_flexbox div#skill{
+          width:100%;
+          margin-top:10px;
+      }
+      .whatiequip_container{
+          padding:20px; 
+      }
+      .whatiequip_flexbox{
+          flex-direction: column;
+      }
+      div.whatiequip_flexbox div#trait{
+          width:100%;
+      }
+      div.whatiequip_flexbox div#trait p{
+          padding:0;
+      }
+      .myfacts_container{
+          padding:20px;
+      }     
+        section.myfacts span{
+          margin-right:0;
+          margin-top:10px;
+      }
+   
 }
       
       
@@ -192,7 +607,7 @@ and (min-device-width : 375px)
     and (device-width : 375px) 
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
-      /*Shared Component*/
+           /*Shared Component*/
       /*Header*/
       label{
         display: block;
@@ -217,11 +632,6 @@ and (min-device-width : 375px)
       #toggle:checked + .menu{
           display:block;
       }
-      
-      /*
-      section{
-          padding:20px 20px 10px 20px;
-      }*/
       /*Footer*/
       #contact{
           padding-top:10px;
@@ -262,7 +672,7 @@ and (min-device-width : 375px)
       /*Project Gallery*/
       .gallery-item-meuni{
           display:block;
-          padding:20px 20px 10px 20px;
+          padding:20px;
       }
       .text-wraper-project-meuni{
           width:100%;
@@ -272,16 +682,220 @@ and (min-device-width : 375px)
       }
       .gallery-item-coursectl{
           display:block;
-          padding:20px 20px 10px 20px;
+          padding:20px;
           background-color: rgb(255,250,244);
       }
       .text-wraper-project-coursectl{
           width:100%;
       }
+      section{
+          max-width:100%;
+      }
+      /*MeUni Page Starts*/
+      .title{
+          text-align: center;
+      }
+      .brief_intro{
+          padding-left:20px;
+          padding-right:20px;
+      }
+      #overview{
+          padding: 20px;
+      }
+      .overview_briefintro{
+          width:100%;
+      }
+      div#overview_detail{
+          width:100%;
+          font-size:12px;
+          flex-direction: column;
+      }
+      div.one_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      div.two_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      div.three_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      div.four_column{
+          width:100%;
+          padding-right:0;
+          padding-top:10px;
+          text-align: center;
+      }
+      #dp_content{
+          padding:20px;
+      }
+      .background_container{
+          padding:20px;
+      }
+      .why_container{
+          padding:20px;
+      }
+      .com_summary{
+          padding:20px;
+      }
+      .takeaways_contanier{
+          padding:20px;
+      }
+      div#thirdteen_column{
+          width:10%;
+          padding-left:0;
+          padding-right:20px;
+      }
+      div#fifteen_column{
+          width:10%;
+          padding-left:0;
+          padding-right:20px;
+      }
+      div#seventeen_column{
+          width:10%;
+          padding-left:0;
+          padding-right:20px;
+      }
+      .problemstatement_container{
+          padding:20px;
+      }
+      .problemstatement_flexbox_row{
+          display:block;
+      }
+      .problemstatement_flexbox_row_responsive{
+          flex-direction: column;
+      }
+      div.problemstatement_flexbox_row div{
+          width:100%
+      }
+      .behaviorfactors_container{
+          padding:20px;
+      }
+      div.behavior_factors_flexbox_row{
+          flex-direction: column;
+      }
+      div.behavior_factors_flexbox_row div{
+          width:100%;
+      }
+      .solutions_container{
+          padding:20px;
+      }
+      div#twentyfive_column{
+          width:10%;
+         padding-right:20px;
+          padding-left:0;
+      }
+      div#twentyseven_column{
+          width:10%;
+          padding-right:20px;
+          padding-left:0;
+      }
+      div#twentynine_column{    
+          width:10%;
+          padding-right:20px;
+          padding-left:0;
+      }
+      div#thirtyone_column{
+          width:10%;
+          padding-right:20px;
+          padding-left:0;
+      }
+      .brainstorming_container{
+          padding:20px;
+      }
+      div.brainstorming_pic{
+          width:100%;
+      }
+      div.brainstorming_text{
+          width:100%;
+      }
       
-      
-      
-      
+      div.brainstorming_flexbox{
+          flex-direction: column;
+      }
+      .IA_container{
+          padding:20px;
+      }
+      .design_container{
+          padding:20px;
+      }
+      div.picture_set_flexbox{
+          display:none;
+      }
+      .reflections_container{
+          padding:20px;
+      }
+      div.reflection_flexbox{
+          display:flex;
+          flex-direction: column;
+      }
+      div.iphone_mockup{
+          width:100%;
+      }
+      div.final_column{
+          padding:10px;
+          width:100%;
+      }
+      .nextproject_container{
+          padding:20px;
+      }
+      div.next_project_name{
+          padding-left: 100px
+      }
+      /*Course Catalog starts*/
+      /*About page starts*/
+      .selfintro_container{
+          padding:20px;
+      }
+      div.mountaingirl_flexbox{
+          flex-direction: column;
+      }
+      div.mountaingirl_pic{
+          width:100%;
+      }
+      div.mountaingirl_intro{
+          width:100%;
+          padding-left:0;
+          margin-top:10px;
+      }
+      .whatido_container{
+          padding:20px;
+      }
+      div.whatido_flexbox{
+          flex-direction: column;
+      }
+      div.whatido_flexbox div#skill{
+          width:100%;
+          margin-top:10px;
+      }
+      .whatiequip_container{
+          padding:20px; 
+      }
+      .whatiequip_flexbox{
+          flex-direction: column;
+      }
+      div.whatiequip_flexbox div#trait{
+          width:100%;
+      }
+      div.whatiequip_flexbox div#trait p{
+          padding:0;
+      }
+      .myfacts_container{
+          padding:20px;
+      } 
+      section.myfacts span{
+          margin-right:0;
+          margin-top:10px;
+      }
+   
 }
 
 

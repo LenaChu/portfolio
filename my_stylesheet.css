@@ -5,6 +5,7 @@ body{
 	background-color:white;
     height:100%;
     position:relative;
+    text-align: left;
 }
 /*Content Wrapper*/
 #content_wrapper{
@@ -273,9 +274,11 @@ a#myproject{
 section.self_introduction{
 	margin-top:80px;
 	background-color:rgb(240,225,239);
-    padding: 50px 200px 50px 200px;
     z-index:-1;
-    line-height: 25px;
+}
+.selfintro_container{
+    max-width: 100%;
+    padding: 50px 200px 50px 200px;
 }
 
 div.mountaingirl_flexbox{
@@ -296,23 +299,28 @@ img#mountaingirl{
 }
 section.whatido{
 	background-color:white;
-    padding: 50px 200px 50px 200px;
-    line-height: 25px;
+    max-width: 100%;
 }
-div.whatido_flexbox{
+.whatido_container{
+    padding: 50px 200px 50px 200px;
+}
+.whatido_flexbox{
     display: flex;
     flex-direction: row;
 }
-div.whatido_flexbox div#skill{
+.whatido_flexbox div#skill{
     width:33%;
     text-align: center;
 }
 section.whatiequip{
 	background-color:rgb(255,250,244);
-    padding: 50px 200px 50px 200px;
-    line-height: 25px;
+    max-width: 100%;
 }
-div.whatiequip_flexbox{
+.whatiequip_container{
+    padding: 50px 200px 50px 200px;
+    
+}
+.whatiequip_flexbox{
     display: flex;
     flex-direction: row;
 }
@@ -327,8 +335,10 @@ div.whatiequip_flexbox div#trait p{
 }
 section.myfacts{
 	background-color:white;
-    padding: 50px 200px 50px 200px;
-    line-height: 25px;
+    max-width: 100%;
+}
+.myfacts_container{
+    padding: 50px 200px 50px 200px;   
 }
 section.myfacts span{
     margin-right:10px;
@@ -352,7 +362,6 @@ section.MEUNI_intro h2{
     color:rgb(49,58,55);
 }
 .title{
-    width:100%;
     font-size:30px;
     font-weight: 600;
     text-align: center;
@@ -361,7 +370,6 @@ section.MEUNI_intro h2{
     text-align: center;
 }
 .brief_intro p{
-    width:100%;
     font-weight:400;
     font-size:18px;
     padding-top:20px;
@@ -373,7 +381,7 @@ div#overview_wrapper{
     text-align: left;
 }
 /*Overiew*/
-div#overview{
+#overview{
     padding: 50px 200px 50px 200px;
 }
 
@@ -386,17 +394,10 @@ div#overview_detail{
     flex-direction: row;
     overflow: hidden;
 }
-div#overview p{
-  font-style: normal;
-  text-align: left;
-  line-height: 25px;
-  font-weight:lighter;
-}
 div.one_column{
     width:25%;
     padding-right: 10px;
 }
-
 div.two_column{
     width:25%;
     padding-right: 10px;
@@ -411,8 +412,11 @@ div.four_column{
 }
 /*Design Process*/
 section#design_process{
-    padding: 50px 200px 50px 200px;
+    width:100%;
     background-color: rgb(255,250,244);
+}
+#dp_content{
+    padding: 50px 200px 50px 200px;
 }
 section#design_process h4{
     color:darkslategray;
@@ -426,8 +430,11 @@ img#design_process_flowchart{
 }
 
 section#background{
-    padding: 50px 200px 50px 200px;
+    max-width:100%;
     text-align:left;   
+}
+.background_container{
+    padding: 50px 200px 50px 200px;
 }
 
 section#background p{
@@ -435,14 +442,14 @@ section#background p{
   text-align: justify;
   text-justify:inter-ideograph;
   line-height: 25px;
-  font-weight:lighter;
 }
 /*Why Meditation*/
 section#why_med{
-    padding: 50px 200px 50px 200px;
-    font-size:16px;
-    text-align:left; 
+    max-width:100%;
     background-color:rgb(255,250,244);
+}
+.why_container{
+    padding: 50px 200px 50px 200px;
 }
 .meditation_bnt_pic_container{
     text-align: center;
@@ -455,15 +462,17 @@ img#meditaion_bnt{
 }
 
 section#com_analysis{
-    padding: 50px 200px 50px 200px;
+    max-width:100%;
     line-height: 25px;
     font-size:16px;
     text-align:left; 
 }
+.com_summary{
+    padding: 50px 200px 50px 200px;
+}
 div.com_summary p{
   font-style: normal;
   text-align: left;
-  font-weight:lighter;
 }
 div.com_table{
     text-align: center;
@@ -473,11 +482,11 @@ img#competitor_table{
     max-width: 100%;
 }
 /*Takeaways*/
-div.takeaways_bullets{
+#takeaways{
     background-color: rgb(255,250,244);
+}
+.takeaways_contanier{
     padding: 50px 200px 50px 200px;
-    font-size:16px;
-    line-height:25px;
 }
 div.bullet_flexbox_row{
     display:flex;
@@ -511,16 +520,20 @@ div#eighteen_column{
     width:80%;
 }
 /*Problem Statement*/
-section#problem_statement{
-    padding: 50px 200px 50px 200px;
-    line-height: 25px;
-    font-size:16px;
+#problem_statement{
     text-align:left; 
 }
 
-div.problemstatement_flexbox_row{
+.problemstatement_container{
+    padding: 50px 200px 50px 200px;
+}
+
+.problemstatement_flexbox_row{
     display:flex;
     flex-direction: row;
+}
+problemstatement_flexbox_row_responsive{
+    display:none;
 }
 div.problemstatement_flexbox_row div{
     width:25%;
@@ -532,12 +545,11 @@ section#problem_statement h2#number{
     margin-bottom: 0px;
 }
 /*Behavior Theory*/
-section#behavior_factors{
-    padding: 50px 200px 50px 200px;
-    line-height: 25px;
-    font-size:16px;
-    text-align:left; 
+section#behavior_factors{    
     background-color: rgb(255,250,244);
+}
+.behaviorfactors_container{
+    padding: 50px 200px 50px 200px;
 }
 
 div.behavior_factors_flexbox_row{
@@ -555,10 +567,11 @@ section#behavior_factors h2#number{
 
 /*Solutions*/
 section#solutions{
+    max-width:100%;
     background-color: white;
+}
+.solutions_container{
     padding: 50px 200px 50px 200px; 
-    font-size:16px;
-    line-height:25px;
 }
 div.solutions_bullets_row{
     display:flex;
@@ -607,11 +620,12 @@ div#thirtytwo_column{
 }
 /*Brainstorming*/
 section#brainstorming{
-    padding: 50px 200px 50px 200px;
-    font-size:16px;
-    line-height:25px;
+    max-width:100%;
     overflow: hidden;
     background-color:rgb(240,225,239);    
+}
+.brainstorming_container{
+    padding: 50px 200px 50px 200px;
 }
 
 
@@ -636,9 +650,10 @@ div.brainstorming_text{
 
 /*Information Architecture*/
 section#IA{
+    max-width: 100%;
+}
+.IA_container{
     padding: 50px 200px 50px 200px;
-    font-size:16px;
-    line-height:25px;   
 }
 div.IA_pic{
     text-align: center;
@@ -649,10 +664,11 @@ img#IAflow{
 }
 /*design*/
 section#design{
-    padding: 50px 200px 50px 200px;
-    font-size:16px;
-    line-height:25px;   
+    max-height:100%;
     background-color: rgb(255,250,244);
+}
+.design_container{
+    padding: 50px 200px 50px 200px;
 }
 div.picture_set_flexbox{
     display: flex;
@@ -687,10 +703,11 @@ img#homepagemock{
 }
 /*Reflection*/
 section#reflections{
-    padding: 50px 200px 50px 200px;
-    font-size:16px;
-    line-height:25px;   
+    max-height: 100%;
     background-color:white;
+}
+.reflections_container{
+    padding: 50px 200px 50px 200px;
 }
 div.reflection_flexbox{
     display: table;
@@ -706,17 +723,17 @@ div.iphone_mockup img{
 }
 div.final_column{
     width: 70%;
-    text-align: left;
     vertical-align: middle;
     display: table-cell;
 }
 
 /*Next Project*/
 section#next_project{
-    padding: 50px 200px 50px 200px;
-    font-size:16px;
-    line-height:25px; 
+    max-width: 100%;
     background-color:rgb(255,250,244);
+}
+.nextproject_container{
+   padding: 50px 200px 50px 200px; 
 }
 section#next_project h4{
     color: rgb(49,58,55);
@@ -758,7 +775,7 @@ section.coursecatalog_banner h2{
     color:rgb(49,58,55);
 }
 section.coursecatalog_banner div.title{
-    width:100%;
+    max-width:100%;
     font-size:30px;
     font-weight: 600;
     text-align: center;
