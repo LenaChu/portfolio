@@ -6,11 +6,6 @@ and (min-device-width : 375px)
     and (max-device-width : 667px){ 
       /*Shared Component*/
       /*Header*/
-      #my_header{
-          background-color:transparent;
-          box-shadow:none;
-      }
-      /*don't know how to close background color and box shadow*/
       label{
         display: block;
         cursor:pointer;
@@ -106,11 +101,6 @@ and (min-device-width : 375px)
   and (-webkit-min-device-pixel-ratio: 3) { 
       /*Shared Component*/
       /*Header*/
-      #my_header{
-          background-color:transparent;
-          box-shadow:none;
-      }
-      /*don't know how to close background color and box shadow*/
       label{
         display: block;
         cursor:pointer;
@@ -208,11 +198,6 @@ and (min-device-width : 375px)
     and (-webkit-device-pixel-ratio : 3) { 
       /*Shared Component*/
       /*Header*/
-      #my_header{
-          background-color:transparent;
-          box-shadow:none;
-      }
-      /*don't know how to close background color and box shadow*/
       label{
         display: block;
         cursor:pointer;
