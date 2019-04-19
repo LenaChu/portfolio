@@ -27,6 +27,8 @@
           display:block;
           line-height:70px;
           border-bottom:1px solid #EAEAEB;
+          margin-left:0;
+          margin-right:0;
       }
       #toggle:checked + .menu{
           display:block;
