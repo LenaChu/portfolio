@@ -169,9 +169,6 @@
           padding:20px;
       }
       .problemstatement_flexbox_row{
-          display:block;
-      }
-      .problemstatement_flexbox_row_responsive{
           flex-direction: column;
       }
       div.problemstatement_flexbox_row div{

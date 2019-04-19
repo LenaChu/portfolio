@@ -534,9 +534,6 @@ div#eighteen_column{
     display:flex;
     flex-direction: row;
 }
-problemstatement_flexbox_row_responsive{
-    display:none;
-}
 div.problemstatement_flexbox_row div{
     width:25%;
     padding-right: 30px;    
