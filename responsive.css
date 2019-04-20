@@ -77,6 +77,7 @@
       }
       .text-wraper-project-meuni{
           width:100%;
+          text-align: center
       }
       .project-pic-container{
           display:none;
@@ -88,9 +89,17 @@
       }
       .text-wraper-project-coursectl{
           width:100%;
+          text-align: center;
       }
-      section{
-          max-width:100%;
+      p#desktop{
+          display:none;
+      }
+      p#mobile{
+          display:block;
+          
+      }
+      .gallery_bttn:active{
+          background-color: rgb(240,225,239);
       }
       /*MeUni Page Starts*/
       .title{
@@ -306,7 +315,7 @@
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-         /*Shared Component*/
+       /*Shared Component*/
       /*Header*/
       label{
         display: block;
@@ -327,6 +336,8 @@
           display:block;
           line-height:70px;
           border-bottom:1px solid #EAEAEB;
+          margin-left:0;
+          margin-right:0;
       }
       #toggle:checked + .menu{
           display:block;
@@ -375,6 +386,7 @@
       }
       .text-wraper-project-meuni{
           width:100%;
+          text-align: center
       }
       .project-pic-container{
           display:none;
@@ -386,9 +398,17 @@
       }
       .text-wraper-project-coursectl{
           width:100%;
+          text-align: center;
       }
-      section{
-          max-width:100%;
+      p#desktop{
+          display:none;
+      }
+      p#mobile{
+          display:block;
+          
+      }
+      .gallery_bttn:active{
+          background-color: rgb(240,225,239);
       }
       /*MeUni Page Starts*/
       .title{
@@ -467,9 +487,6 @@
           padding:20px;
       }
       .problemstatement_flexbox_row{
-          display:block;
-      }
-      .problemstatement_flexbox_row_responsive{
           flex-direction: column;
       }
       div.problemstatement_flexbox_row div{
@@ -590,11 +607,11 @@
       .myfacts_container{
           padding:20px;
       }     
-        section.myfacts span{
+      section.myfacts span{
           margin-right:0;
           margin-top:10px;
       }
-   
+          
 }
       
       
@@ -606,7 +623,7 @@
     and (device-width : 375px) 
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
-           /*Shared Component*/
+/*Shared Component*/
       /*Header*/
       label{
         display: block;
@@ -627,6 +644,8 @@
           display:block;
           line-height:70px;
           border-bottom:1px solid #EAEAEB;
+          margin-left:0;
+          margin-right:0;
       }
       #toggle:checked + .menu{
           display:block;
@@ -675,6 +694,7 @@
       }
       .text-wraper-project-meuni{
           width:100%;
+          text-align: center
       }
       .project-pic-container{
           display:none;
@@ -686,9 +706,17 @@
       }
       .text-wraper-project-coursectl{
           width:100%;
+          text-align: center;
       }
-      section{
-          max-width:100%;
+      p#desktop{
+          display:none;
+      }
+      p#mobile{
+          display:block;
+          
+      }
+      .gallery_bttn:active{
+          background-color: rgb(240,225,239);
       }
       /*MeUni Page Starts*/
       .title{
@@ -767,9 +795,6 @@
           padding:20px;
       }
       .problemstatement_flexbox_row{
-          display:block;
-      }
-      .problemstatement_flexbox_row_responsive{
           flex-direction: column;
       }
       div.problemstatement_flexbox_row div{
@@ -889,12 +914,12 @@
       }
       .myfacts_container{
           padding:20px;
-      } 
+      }     
       section.myfacts span{
           margin-right:0;
           margin-top:10px;
       }
-   
+          
 }
 
 
