@@ -496,10 +496,10 @@ section#com_analysis{
     font-size:16px;
     text-align:left; 
 }
-.com_summary{
+div.com_container{
     padding: 50px 200px 50px 200px;
 }
-div.com_summary p{
+div.com_container p{
   font-style: normal;
   text-align: left;
 }
@@ -814,7 +814,28 @@ section.coursecatalog_banner div.brief_intro p{
     font-weight:400;
     font-size:18px;
     padding-top:20px;
-    padding-bottom:20px;
+    padding-bottom:20px; 
+}
+/*coursecatalog summary*/
+section#summary{
+    max-height: 100%;
+    background-color: rgb(255,250,244);   
+}
+.summary_container{
+    padding: 50px 200px 50px 200px;
+}
+/*coursecatalog competitve analysis*/
+.CA_flexbox_row{
+    display:flex;
+    flex-direction: row;
+}
+div.CA_flexbox_row div{
+    width:25%;
+    padding-right:30px;
+}
+div.CA_flexbox_row h2{
+    color:orange;
+    margin-bottom: 0px;
     
 }
 
