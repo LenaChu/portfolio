@@ -816,14 +816,6 @@ section.coursecatalog_banner div.brief_intro p{
     padding-top:20px;
     padding-bottom:20px; 
 }
-/*coursecatalog summary*/
-section#summary{
-    max-height: 100%;
-    background-color: rgb(255,250,244);   
-}
-.summary_container{
-    padding: 50px 200px 50px 200px;
-}
 /*coursecatalog competitve analysis*/
 .CA_flexbox_row{
     display:flex;
@@ -837,6 +829,10 @@ div.CA_flexbox_row h2{
     color:orange;
     margin-bottom: 0px;
     
+}
+#coursecatalog_competitors{
+    max-height: 100%;
+    max-width: 100%;
 }
 
 
