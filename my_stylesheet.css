@@ -830,10 +830,26 @@ div.CA_flexbox_row h2{
     margin-bottom: 0px;
     
 }
+#course_catalog_com_analysis{
+    width:100%;
+}
+.course_catalog_com_container{
+    padding: 50px 200px 50px 200px; 
+}
+
 #coursecatalog_competitors{
     max-height: 100%;
     max-width: 100%;
 }
+.course_catalog_com_takeaways_bulletpoints td{
+    line-height: 25px;
+    color:rgb(49,58,55);
+}
+.course_catalog_com_takeaways_bulletpoints th{
+    width:3%;
+    color:rgb(49,58,55);
+}
+
 
 
 /*slidein animation*/
