@@ -855,6 +855,20 @@ div.CA_flexbox_row h2{
 .course_catalog_interview_container{
     padding: 50px 200px 50px 200px; 
 }
+.course_catalog_interview_findins_flexrow{
+    display: flex;
+    flex-direction: row;
+    margin:30px 0;
+}
+.interview_findings_flexbox{
+    width:25%;
+    padding:0 10px;
+}
+.interview_findings_flexbox span{
+    margin:0 25%;
+}
+
+/*
 .course_catalog_interview_findins{
     line-height: 25px;
     color:rgb(49,58,55); 
@@ -863,6 +877,7 @@ div.CA_flexbox_row h2{
     width:3%;
     vertical-align: top;
 }
+*/
 
 
 
