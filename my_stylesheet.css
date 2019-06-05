@@ -855,12 +855,15 @@ div.CA_flexbox_row h2{
 .course_catalog_interview_container{
     padding: 50px 200px 50px 200px; 
 }
-.course_catalog_interview_findins_flexrow{
+.mural_container{
+
+}
+.course_catalog_interview_takeaways_flexrow{
     display: flex;
     flex-direction: row;
     margin:30px 0;
 }
-.interview_findings_flexbox{
+.interview_takeaways_flexbox{
     width:25%;
     padding:0 10px;
 }
