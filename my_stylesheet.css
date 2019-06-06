@@ -99,7 +99,7 @@ li{
   right: 0;
 }
 /*Footer Section*/
-div#contact{
+#contact{
     background-color:rgb(255,250,244);
     padding-top:60px;
     padding-bottom: 60px;
@@ -151,7 +151,7 @@ footer.copyright{
     color:rgb(49,58,55);
     letter-spacing: 2px; 
 }
-div.copyright p{
+.copyright p{
     font-size:14px;
     color:rgb(90,90,90);
     text-align: center;
@@ -166,47 +166,19 @@ img.svg social-link:hover path{
 
 
 /*Index page*/
-section.index_banner{
+.index_banner{
 	margin-top:80px;
 	width: 100%;
 	background-color: rgb(240,225,239);
 	height: 300px;
 	font-family: 'Raleway';
-    padding-top:20px;
 }
-
-
-/*
-.hero-image {
-  background-image: linear-gradient(rgba(240, 225, 239, 0.8), rgba(240, 225, 239, 0.8)), url("pic/heroimage.jpg");
-  background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top:80px;
-	width: 100%;
-	background-color: rgb(240,225,239);
-	height: 350px;
-	font-family: 'Raleway';
-    padding-top:20px;
-}
-*/
-
-
 .column{
 	font-style: normal;
 	font-weight:400;
     letter-spacing: 1px;
-    padding-top: 50px;
+    padding:3% 20%;
     text-align: center;
-    /*
-	width:55%;
-	margin-left: 20px;
-	margin-right:20px;
-	padding-left:30px;
-	padding-right:30px;
-	padding-top:30px;
-    */
 }
 .column p{
     font-size: 18px;
@@ -230,13 +202,13 @@ a#myproject{
 .gallery-item-meuni{
    height:200px;
    background-color: white;
-   padding: 50px 300px 50px 300px;
+   padding: 3% 15%;
    display: table;
 }
 .gallery-item-coursectl{
    height:200px;
    background-color: rgb(255,250,244);
-   padding: 50px 300px 50px 300px;
+   padding: 3% 15%;
    display: table;
 }
 
@@ -262,7 +234,7 @@ p#mobile{
     text-align: left;
     width:50%;
 }
-project-pic-meuni{
+.project-pic-meuni{
     max-height: 100%;
     max-width: 100%;
 }
@@ -295,43 +267,41 @@ project-pic-meuni{
     background-color: rgb(240,225,239);
     cursor:pointer;
 }
-
-
 /*About_Me*/
 /*Main Content begins!*/
 /*Self-Introduction*/
-section.self_introduction{
+.self_introduction{
 	margin-top:80px;
 	background-color:rgb(240,225,239);
     z-index:-1;
 }
 .selfintro_container{
     max-width: 100%;
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
 }
 
-div.mountaingirl_flexbox{
+.mountaingirl_flexbox{
     display: flex;
     flex-direction: row;
 }
-div.mountaingirl_pic{
+.mountaingirl_pic{
     width:50%;
     
 }
-div.mountaingirl_intro{
+.mountaingirl_intro{
     width:50%;
     padding-left:30px;
 }
-img#mountaingirl{
+#mountaingirl{
     max-height: 100%;
     max-width: 100%;
 }
-section.whatido{
+.whatido{
 	background-color:white;
     max-width: 100%;
 }
 .whatido_container{
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
 }
 .whatido_flexbox{
     display: flex;
@@ -341,41 +311,40 @@ section.whatido{
     width:33%;
     text-align: center;
 }
-section.whatiequip{
+.whatiequip{
 	background-color:rgb(255,250,244);
     max-width: 100%;
 }
 .whatiequip_container{
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
     
 }
 .whatiequip_flexbox{
     display: flex;
     flex-direction: row;
 }
-div.whatiequip_flexbox div#trait{
+.whatiequip_flexbox div#trait{
     width:33.3%;
     text-align: center;
 }
-div.whatiequip_flexbox div#trait p{
+.whatiequip_flexbox div#trait p{
     text-align: left;
     padding-right:15px;
     padding-left:15px;
 }
-section.myfacts{
+.myfacts{
 	background-color:white;
     max-width: 100%;
 }
 .myfacts_container{
-    padding: 50px 200px 50px 200px;   
+    padding: 3% 15%;   
 }
-section.myfacts span{
+.myfacts span{
     margin-right:10px;
 }
-
 /*MeUni*/
 /*Title and Introduction*/
-section.MEUNI_intro{
+.MEUNI_intro{
     position:relative;
 	margin-top:80px;
 	width: 100%;
@@ -384,138 +353,113 @@ section.MEUNI_intro{
     padding-bottom:20px;
     z-index:-1;
 }
-section.MEUNI_intro p{
-    color:rgb(109,109,109);
-}
-section.MEUNI_intro h2{
-    color:rgb(49,58,55);
-}
-.title{
-    font-size:30px;
-    font-weight: 600;
-    text-align: center;
-}
-.brief_intro{
-    text-align: center;
-}
-.brief_intro p{
-    font-weight:400;
-    font-size:18px;
-    padding-top:20px;
-    padding-bottom:20px;
-    
-}
-/*Main Content*/
-div#overview_wrapper{
-    text-align: left;
-}
+ .title{
+     padding: 3% 15%;
+     text-align: center;
+      }
 /*Overiew*/
 #overview{
-    padding: 50px 200px 50px 200px;
+    width: 100%;
+    background-color: white;
 }
-
-h4#overview_h{
-    text-decoration: underline;
-    margin-bottom: 5px;
+.overview_wrapper{
+    padding: 3% 15%;
 }
-div#overview_detail{
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
+.overview_wrapper h2{
+    text-align: center;
 }
-div.one_column{
-    width:25%;
-    padding-right: 10px;
+.overview_grid_container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 10px;
+    
 }
-div.two_column{
-    width:25%;
-    padding-right: 10px;
+.grid_1_overview_cell{
+    border-left-style: solid;
+    border-left-color:rgb(109,109,109);
+    padding:10px;
+    margin:15px;
+    text-align: left;
 }
-div.three_column{
-    width:25%;
-    padding-right:10px;
-}
-div.four_column{
-    width:25%;
-    padding-right:10px;
+.grid_2_overview p{
+    font-weight: 500;
 }
 /*Design Process*/
-section#design_process{
+#design_process{
     width:100%;
     background-color: rgb(255,250,244);
 }
 #dp_content{
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
 }
-section#design_process h4{
+#design_process h4{
     color:darkslategray;
 }
 #dp_img{
     text-align: center;
 }
-img#design_process_flowchart{
+#design_process_flowchart{
     max-height: 100%;
     max-width: 100%;
 }
 
-section#background{
+#background{
     max-width:100%;
     text-align:left;   
 }
 .background_container{
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
 }
 
-section#background p{
+#background p{
   font-style: normal;
   text-align: justify;
   text-justify:inter-ideograph;
   line-height: 25px;
 }
 /*Why Meditation*/
-section#why_med{
+#why_med{
     max-width:100%;
     background-color:rgb(255,250,244);
 }
 .why_container{
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
 }
 .meditation_bnt_pic_container{
     text-align: center;
     margin-top:20px;
     margin-bottom:20px;
 }
-img#meditaion_bnt{
+#meditaion_bnt{
     max-height: 100%;
     max-width: 100%;
 }
 
-section#com_analysis{
+#com_analysis{
     max-width:100%;
-    line-height: 25px;
-    font-size:16px;
     text-align:left; 
 }
-div.com_container{
-    padding: 50px 200px 50px 200px;
+.com_container{
+    padding: 3% 15%;
 }
-div.com_container p{
+.com_container p{
   font-style: normal;
   text-align: left;
 }
-div.com_table{
+.com_table{
     text-align: center;
 }
-img#competitor_table{
+#competitor_table{
     max-height: 100%;
     max-width: 100%;
 }
 /*Takeaways*/
 #takeaways{
     background-color: rgb(255,250,244);
+    width:100%;
 }
 .takeaways_contanier{
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
 }
 div.bullet_flexbox_row{
     display:flex;
@@ -550,11 +494,12 @@ div#eighteen_column{
 }
 /*Problem Statement*/
 #problem_statement{
-    text-align:left; 
+    text-align:left;
+    width:100%;
 }
 
 .problemstatement_container{
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
 }
 
 .problemstatement_flexbox_row{
@@ -571,11 +516,12 @@ section#problem_statement h2#number{
     margin-bottom: 0px;
 }
 /*Behavior Theory*/
-section#behavior_factors{    
+#behavior_factors{    
     background-color: rgb(255,250,244);
+    width:100%;
 }
 .behaviorfactors_container{
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
 }
 
 div.behavior_factors_flexbox_row{
@@ -592,12 +538,12 @@ section#behavior_factors h2#number{
 }
 
 /*Solutions*/
-section#solutions{
-    max-width:100%;
+#solutions{
+    width:100%;
     background-color: white;
 }
 .solutions_container{
-    padding: 50px 200px 50px 200px; 
+    padding: 3% 15%; 
 }
 div.solutions_bullets_row{
     display:flex;
@@ -635,39 +581,39 @@ div#thirty_column{
     width:80%;
 }
 
-div#thirtyone_column{
+#thirtyone_column{
   width:100px;
   padding-top:30px;
   padding-left:50px;
 }
 
-div#thirtytwo_column{
+#thirtytwo_column{
     width:80%;
 }
 /*Brainstorming*/
-section#brainstorming{
-    max-width:100%;
+#brainstorming{
+    width:100%;
     overflow: hidden;
     background-color:rgb(240,225,239);    
 }
 .brainstorming_container{
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
 }
 
 
-div.brainstorming_flexbox{
+.brainstorming_flexbox{
     display: flex;
     flex-direction: row;
 }
-div.brainstorming_pic{
+.brainstorming_pic{
     width:60%;
     padding-right: 30px;
 }
-div.brainstorming_pic img{
+.brainstorming_pic img{
     max-height: 100%;
     max-width: 100%;
 }
-div.brainstorming_text{
+.brainstorming_text{
     width:40%;
 }
 
@@ -675,107 +621,107 @@ div.brainstorming_text{
 
 
 /*Information Architecture*/
-section#IA{
-    max-width: 100%;
+#IA{
+    width: 100%;
 }
 .IA_container{
-    padding: 50px 200px 50px 200px;
+    padding: 5% 20%;
 }
-div.IA_pic{
+.IA_pic{
     text-align: center;
 }
-img#IAflow{
+#IAflow{
     max-height: 100%;
     max-width: 100%;
 }
 /*design*/
-section#design{
+#design{
     max-height:100%;
     background-color: rgb(255,250,244);
 }
 .design_container{
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
 }
-div.picture_set_flexbox{
+.picture_set_flexbox{
     display: flex;
     flex-direction: row;
 }
-div.picture_set_flexbox div{
+.picture_set_flexbox div{
     width:33%;
 }
-img#taskflow{
+#taskflow{
     max-height: 100%;
     max-width: 100%;
 }
 
-div.UIflow_pic{
+.UIflow_pic{
     text-align: center;
     padding-top:30px;
 }
-div.UIflow_pic p{
+.UIflow_pic p{
     text-align: left;
 }
-img#UIflow{
+#UIflow{
     max-height: 100%;
     max-width: 100%;
 }
-div.mockup{
+.mockup{
     padding-top:30px;
     text-align: center;
 }
-img#homepagemock{
+#homepagemock{
     max-height: 100%;
     max-width: 100%;
 }
 /*Reflection*/
-section#reflections{
-    max-height: 100%;
+#reflections{
+    height: 100%;
     background-color:white;
 }
 .reflections_container{
-    padding: 50px 200px 50px 200px;
+    padding: 3% 15%;
 }
-div.reflection_flexbox{
+.reflection_flexbox{
     display: table;
     width:100%;
 }
-div.iphone_mockup{
+.iphone_mockup{
     width:30%;
     display: table-cell;
 }
-div.iphone_mockup img{
+.iphone_mockup img{
     max-height: 100%;
     max-width: 100%;
 }
-div.final_column{
+.final_column{
     width: 70%;
     vertical-align: middle;
     display: table-cell;
 }
 
 /*Next Project*/
-section#next_project{
+#next_project{
     max-width: 100%;
     background-color:rgb(255,250,244);
 }
 .nextproject_container{
-   padding: 50px 200px 50px 200px; 
+   padding: 3% 15%;
 }
-section#next_project h4{
+#next_project h4{
     color: rgb(49,58,55);
 }
-section#next_project h2{
+#next_project h2{
     color: rgb(49,58,55);
 }
-div.next_project_flexbox{
+.next_project_flexbox{
     display: flex;
     flex-direction: row;
 }
-div.next_project_indicator{
+.next_project_indicator{
     width:20%;
     text-align: center;
 }
-div.next_project_name{
+.next_project_name{
     width:80%;
     padding-left: 150px;
 }
@@ -785,7 +731,7 @@ div.next_project_name{
 
 /*Course Catalog*/
 /*Banner*/
-section.coursecatalog_banner{
+.coursecatalog_banner{
     position:relative;
 	margin-top:80px;
 	width: 100%;
@@ -794,22 +740,22 @@ section.coursecatalog_banner{
     padding-bottom:20px;
     z-index:-1;
 }
-section.coursecatalog_banner p{
+.coursecatalog_banner p{
     color:rgb(109,109,109);
 }
-section.coursecatalog_banner h2{
+.coursecatalog_banner h2{
     color:rgb(49,58,55);
 }
-section.coursecatalog_banner div.title{
+.coursecatalog_banner div.title{
     max-width:100%;
     font-size:30px;
     font-weight: 600;
     text-align: center;
 }
-section.coursecatalog_banner div.brief_intro{
+.coursecatalog_banner div.brief_intro{
     text-align: center;
 }
-section.coursecatalog_banner div.brief_intro p{
+.coursecatalog_banner div.brief_intro p{
     width:100%;
     font-weight:400;
     font-size:18px;
@@ -817,15 +763,16 @@ section.coursecatalog_banner div.brief_intro p{
     padding-bottom:20px; 
 }
 /*coursecatalog competitve analysis*/
+
 .CA_flexbox_row{
     display:flex;
     flex-direction: row;
 }
-div.CA_flexbox_row div{
+.CA_flexbox_row div{
     width:25%;
     padding-right:30px;
 }
-div.CA_flexbox_row h2{
+.CA_flexbox_row h2{
     color:orange;
     margin-bottom: 0px;
     
@@ -835,7 +782,7 @@ div.CA_flexbox_row h2{
     width:100%;
 }
 .course_catalog_com_container{
-    padding: 50px 200px 50px 200px; 
+    padding: 3% 15%;
 }
 
 #coursecatalog_competitors{
@@ -853,10 +800,7 @@ div.CA_flexbox_row h2{
     width:100%;
 }
 .course_catalog_interview_container{
-    padding: 50px 200px 50px 200px; 
-}
-.mural_container{
-
+    padding: 3% 15%; 
 }
 .course_catalog_interview_takeaways_flexrow{
     display: flex;
@@ -866,21 +810,18 @@ div.CA_flexbox_row h2{
 .interview_takeaways_flexbox{
     width:25%;
     padding:0 10px;
+    
+}
+.interview_takeaways_flexbox p{
+    text-align: left;
 }
 .interview_takeaways_flexbox span{
     margin:0 25%;
 }
+.interview_takeaways_icon{
+    width:60px;
+}
 
-/*
-.course_catalog_interview_findins{
-    line-height: 25px;
-    color:rgb(49,58,55); 
-}
-.course_catalog_interview_findins th{
-    width:3%;
-    vertical-align: top;
-}
-*/
 
 
 

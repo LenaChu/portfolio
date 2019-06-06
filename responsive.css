@@ -2,10 +2,10 @@
 
 /* iPhone 7 Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) 
+    and (orientation: portrait){ 
       /*Shared Component*/
       /*Header*/
       label{
@@ -35,8 +35,7 @@
       }
       /*Footer*/
       #contact{
-          padding-top:10px;
-          padding-bottom: 10px;
+          padding:20px 3px;
       }
       /*Copy Right Declaration*/
       .link-icon{
@@ -61,6 +60,9 @@
       }
       /*Index Page*/
       /*Banner*/
+        .column{
+            20px;
+        }
       .index_banner{
           max-width:100%;
           height:auto;
@@ -84,8 +86,8 @@
       }
       .gallery-item-coursectl{
           display:block;
-          padding:20px;
           background-color: rgb(255,250,244);
+          padding:20px;
       }
       .text-wraper-project-coursectl{
           width:100%;
@@ -102,63 +104,57 @@
           background-color: rgb(240,225,239);
       }
       /*MeUni Page Starts*/
-      .title{
-          text-align: center;
-      }
-      .brief_intro{
-          padding-left:20px;
-          padding-right:20px;
-      }
-      #overview{
-          padding: 20px;
-      }
-      .overview_briefintro{
-          width:100%;
-      }
-      div#overview_detail{
+     /*Change grid format*/
+      
+      #overview_detail{
           width:100%;
           font-size:12px;
           flex-direction: column;
       }
-      div.one_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.two_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.three_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.four_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
+        .overview_grid_container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+    /****************/    
+    /*Container*/
+      .overview_wrapper{
+          padding: 20px;
       }
       #dp_content{
-          padding:20px;
+          padding: 20px;
       }
       .background_container{
+          padding: 20px;
+       }
+        .why_container{
+            padding:20px;
+        }
+        .com_container{
+            padding:20px;
+        }
+        .takeaways_contanier{
+            padding:20px;
+        }
+        .problemstatement_container{
+            padding:20px;
+        }
+        .behaviorfactors_container{
+            padding:20px;
+        }
+        .solutions_container{
           padding:20px;
-      }
-      .why_container{
+        }
+        .IA_container{
           padding:20px;
-      }
-      .com_summary{
+        }
+      .design_container{
           padding:20px;
-      }
-      .takeaways_contanier{
+        }
+        .reflections_container{
           padding:20px;
-      }
+        }
+        /*********************/
+        /*Flexbox*/
       div#thirdteen_column{
           width:10%;
           padding-left:0;
@@ -174,17 +170,11 @@
           padding-left:0;
           padding-right:20px;
       }
-      .problemstatement_container{
-          padding:20px;
-      }
       .problemstatement_flexbox_row{
           flex-direction: column;
       }
       div.problemstatement_flexbox_row div{
           width:100%
-      }
-      .behaviorfactors_container{
-          padding:20px;
       }
       div.behavior_factors_flexbox_row{
           flex-direction: column;
@@ -192,9 +182,7 @@
       div.behavior_factors_flexbox_row div{
           width:100%;
       }
-      .solutions_container{
-          padding:20px;
-      }
+      
       div#twentyfive_column{
           width:10%;
          padding-right:20px;
@@ -228,24 +216,9 @@
       div.brainstorming_flexbox{
           flex-direction: column;
       }
-      .IA_container{
-          padding:20px;
-      }
-      .design_container{
-          padding:20px;
-      }
+      
       div.picture_set_flexbox{
           display:none;
-      }
-      .reflections_container{
-          padding:20px;
-      }
-      div.reflection_flexbox{
-          display:flex;
-          flex-direction: column;
-      }
-      div.iphone_mockup{
-          width:100%;
       }
       div.final_column{
           padding:10px;
@@ -258,6 +231,31 @@
           padding-left: 100px
       }
       /*Course Catalog starts*/
+    /*Container*/
+        .course_catalog_com_container{
+            padding:20px;
+        }
+        .course_catalog_interview_container{
+            padding:20px;
+        }
+        .CA_flexbox_row{
+            flex-direction: column;
+        }
+        .CA_flexbox_row div{
+            width:100%;
+        }
+        .mural_container{
+            display:none;
+        }
+        .course_catalog_interview_takeaways_flexrow{
+            flex-direction: column;
+        }
+        .interview_takeaways_flexbox{
+            width:100%;
+        }
+        .interview_takeaways_flexbox span{
+            margin:0 35%;
+        }   
       /*About page starts*/
       .selfintro_container{
           padding:20px;
@@ -304,18 +302,19 @@
       }
           
 }
-      
-      
-      
 
 
 
-/* iPhone7 Plus Portrait and Landscape */
-@media only screen 
+
+
+
+/****************************************/
+/* iPhone7 Plus Portrait and Landscape*/   
+@media screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-       /*Shared Component*/
+      /*Shared Component*/
       /*Header*/
       label{
         display: block;
@@ -344,8 +343,7 @@
       }
       /*Footer*/
       #contact{
-          padding-top:10px;
-          padding-bottom: 10px;
+          padding:20px 3px;
       }
       /*Copy Right Declaration*/
       .link-icon{
@@ -370,6 +368,9 @@
       }
       /*Index Page*/
       /*Banner*/
+        .column{
+            20px;
+        }
       .index_banner{
           max-width:100%;
           height:auto;
@@ -393,8 +394,8 @@
       }
       .gallery-item-coursectl{
           display:block;
-          padding:20px;
           background-color: rgb(255,250,244);
+          padding:20px;
       }
       .text-wraper-project-coursectl{
           width:100%;
@@ -411,63 +412,57 @@
           background-color: rgb(240,225,239);
       }
       /*MeUni Page Starts*/
-      .title{
-          text-align: center;
-      }
-      .brief_intro{
-          padding-left:20px;
-          padding-right:20px;
-      }
-      #overview{
-          padding: 20px;
-      }
-      .overview_briefintro{
-          width:100%;
-      }
-      div#overview_detail{
+     /*Change grid format*/
+      
+      #overview_detail{
           width:100%;
           font-size:12px;
           flex-direction: column;
       }
-      div.one_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.two_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.three_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.four_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
+        .overview_grid_container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+    /****************/    
+    /*Container*/
+      .overview_wrapper{
+          padding: 20px;
       }
       #dp_content{
-          padding:20px;
+          padding: 20px;
       }
       .background_container{
+          padding: 20px;
+       }
+        .why_container{
+            padding:20px;
+        }
+        .com_container{
+            padding:20px;
+        }
+        .takeaways_contanier{
+            padding:20px;
+        }
+        .problemstatement_container{
+            padding:20px;
+        }
+        .behaviorfactors_container{
+            padding:20px;
+        }
+        .solutions_container{
           padding:20px;
-      }
-      .why_container{
+        }
+        .IA_container{
           padding:20px;
-      }
-      .com_summary{
+        }
+      .design_container{
           padding:20px;
-      }
-      .takeaways_contanier{
+        }
+        .reflections_container{
           padding:20px;
-      }
+        }
+        /*********************/
+        /*Flexbox*/
       div#thirdteen_column{
           width:10%;
           padding-left:0;
@@ -483,17 +478,11 @@
           padding-left:0;
           padding-right:20px;
       }
-      .problemstatement_container{
-          padding:20px;
-      }
       .problemstatement_flexbox_row{
           flex-direction: column;
       }
       div.problemstatement_flexbox_row div{
           width:100%
-      }
-      .behaviorfactors_container{
-          padding:20px;
       }
       div.behavior_factors_flexbox_row{
           flex-direction: column;
@@ -501,9 +490,7 @@
       div.behavior_factors_flexbox_row div{
           width:100%;
       }
-      .solutions_container{
-          padding:20px;
-      }
+      
       div#twentyfive_column{
           width:10%;
          padding-right:20px;
@@ -537,24 +524,9 @@
       div.brainstorming_flexbox{
           flex-direction: column;
       }
-      .IA_container{
-          padding:20px;
-      }
-      .design_container{
-          padding:20px;
-      }
+      
       div.picture_set_flexbox{
           display:none;
-      }
-      .reflections_container{
-          padding:20px;
-      }
-      div.reflection_flexbox{
-          display:flex;
-          flex-direction: column;
-      }
-      div.iphone_mockup{
-          width:100%;
       }
       div.final_column{
           padding:10px;
@@ -567,6 +539,31 @@
           padding-left: 100px
       }
       /*Course Catalog starts*/
+    /*Container*/
+        .course_catalog_com_container{
+            padding:20px;
+        }
+        .course_catalog_interview_container{
+            padding:20px;
+        }
+        .CA_flexbox_row{
+            flex-direction: column;
+        }
+        .CA_flexbox_row div{
+            width:100%;
+        }
+        .mural_container{
+            display:none;
+        }
+        .course_catalog_interview_takeaways_flexrow{
+            flex-direction: column;
+        }
+        .interview_takeaways_flexbox{
+            width:100%;
+        }
+        .interview_takeaways_flexbox span{
+            margin:0 35%;
+        }   
       /*About page starts*/
       .selfintro_container{
           padding:20px;
@@ -611,19 +608,16 @@
           margin-right:0;
           margin-top:10px;
       }
-          
 }
-      
-      
-      
-      
-      
+       
+/****************************************/
+/****************************************/
       /* iPhoneX Portrait and Landscape */
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
-/*Shared Component*/
+ /*Shared Component*/
       /*Header*/
       label{
         display: block;
@@ -652,8 +646,7 @@
       }
       /*Footer*/
       #contact{
-          padding-top:10px;
-          padding-bottom: 10px;
+          padding:20px 3px;
       }
       /*Copy Right Declaration*/
       .link-icon{
@@ -678,6 +671,9 @@
       }
       /*Index Page*/
       /*Banner*/
+        .column{
+            20px;
+        }
       .index_banner{
           max-width:100%;
           height:auto;
@@ -701,8 +697,8 @@
       }
       .gallery-item-coursectl{
           display:block;
-          padding:20px;
           background-color: rgb(255,250,244);
+          padding:20px;
       }
       .text-wraper-project-coursectl{
           width:100%;
@@ -719,63 +715,57 @@
           background-color: rgb(240,225,239);
       }
       /*MeUni Page Starts*/
-      .title{
-          text-align: center;
-      }
-      .brief_intro{
-          padding-left:20px;
-          padding-right:20px;
-      }
-      #overview{
-          padding: 20px;
-      }
-      .overview_briefintro{
-          width:100%;
-      }
-      div#overview_detail{
+     /*Change grid format*/
+      
+      #overview_detail{
           width:100%;
           font-size:12px;
           flex-direction: column;
       }
-      div.one_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.two_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.three_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.four_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
+        .overview_grid_container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+    /****************/    
+    /*Container*/
+      .overview_wrapper{
+          padding: 20px;
       }
       #dp_content{
-          padding:20px;
+          padding: 20px;
       }
       .background_container{
+          padding: 20px;
+       }
+        .why_container{
+            padding:20px;
+        }
+        .com_container{
+            padding:20px;
+        }
+        .takeaways_contanier{
+            padding:20px;
+        }
+        .problemstatement_container{
+            padding:20px;
+        }
+        .behaviorfactors_container{
+            padding:20px;
+        }
+        .solutions_container{
           padding:20px;
-      }
-      .why_container{
+        }
+        .IA_container{
           padding:20px;
-      }
-      .com_summary{
+        }
+      .design_container{
           padding:20px;
-      }
-      .takeaways_contanier{
+        }
+        .reflections_container{
           padding:20px;
-      }
+        }
+        /*********************/
+        /*Flexbox*/
       div#thirdteen_column{
           width:10%;
           padding-left:0;
@@ -791,17 +781,11 @@
           padding-left:0;
           padding-right:20px;
       }
-      .problemstatement_container{
-          padding:20px;
-      }
       .problemstatement_flexbox_row{
           flex-direction: column;
       }
       div.problemstatement_flexbox_row div{
           width:100%
-      }
-      .behaviorfactors_container{
-          padding:20px;
       }
       div.behavior_factors_flexbox_row{
           flex-direction: column;
@@ -809,9 +793,7 @@
       div.behavior_factors_flexbox_row div{
           width:100%;
       }
-      .solutions_container{
-          padding:20px;
-      }
+      
       div#twentyfive_column{
           width:10%;
          padding-right:20px;
@@ -845,24 +827,9 @@
       div.brainstorming_flexbox{
           flex-direction: column;
       }
-      .IA_container{
-          padding:20px;
-      }
-      .design_container{
-          padding:20px;
-      }
+      
       div.picture_set_flexbox{
           display:none;
-      }
-      .reflections_container{
-          padding:20px;
-      }
-      div.reflection_flexbox{
-          display:flex;
-          flex-direction: column;
-      }
-      div.iphone_mockup{
-          width:100%;
       }
       div.final_column{
           padding:10px;
@@ -875,6 +842,31 @@
           padding-left: 100px
       }
       /*Course Catalog starts*/
+    /*Container*/
+        .course_catalog_com_container{
+            padding:20px;
+        }
+        .course_catalog_interview_container{
+            padding:20px;
+        }
+        .CA_flexbox_row{
+            flex-direction: column;
+        }
+        .CA_flexbox_row div{
+            width:100%;
+        }
+        .mural_container{
+            display:none;
+        }
+        .course_catalog_interview_takeaways_flexrow{
+            flex-direction: column;
+        }
+        .interview_takeaways_flexbox{
+            width:100%;
+        }
+        .interview_takeaways_flexbox span{
+            margin:0 35%;
+        }   
       /*About page starts*/
       .selfintro_container{
           padding:20px;
@@ -919,18 +911,15 @@
           margin-right:0;
           margin-top:10px;
       }
-          
 }
 
-
-
-/* Portrait and Landscape */
+/****************************************/
+/* Samsung Galaxy S5 Portrait and Landscape */
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
-
-       /*Shared Component*/
+  /*Shared Component*/
       /*Header*/
       label{
         display: block;
@@ -959,8 +948,7 @@
       }
       /*Footer*/
       #contact{
-          padding-top:10px;
-          padding-bottom: 10px;
+          padding:20px 3px;
       }
       /*Copy Right Declaration*/
       .link-icon{
@@ -985,6 +973,9 @@
       }
       /*Index Page*/
       /*Banner*/
+        .column{
+            20px;
+        }
       .index_banner{
           max-width:100%;
           height:auto;
@@ -1008,8 +999,8 @@
       }
       .gallery-item-coursectl{
           display:block;
-          padding:20px;
           background-color: rgb(255,250,244);
+          padding:20px;
       }
       .text-wraper-project-coursectl{
           width:100%;
@@ -1026,63 +1017,57 @@
           background-color: rgb(240,225,239);
       }
       /*MeUni Page Starts*/
-      .title{
-          text-align: center;
-      }
-      .brief_intro{
-          padding-left:20px;
-          padding-right:20px;
-      }
-      #overview{
-          padding: 20px;
-      }
-      .overview_briefintro{
-          width:100%;
-      }
-      div#overview_detail{
+     /*Change grid format*/
+      
+      #overview_detail{
           width:100%;
           font-size:12px;
           flex-direction: column;
       }
-      div.one_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.two_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.three_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
-      }
-      div.four_column{
-          width:100%;
-          padding-right:0;
-          padding-top:10px;
-          text-align: center;
+        .overview_grid_container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+    /****************/    
+    /*Container*/
+      .overview_wrapper{
+          padding: 20px;
       }
       #dp_content{
-          padding:20px;
+          padding: 20px;
       }
       .background_container{
+          padding: 20px;
+       }
+        .why_container{
+            padding:20px;
+        }
+        .com_container{
+            padding:20px;
+        }
+        .takeaways_contanier{
+            padding:20px;
+        }
+        .problemstatement_container{
+            padding:20px;
+        }
+        .behaviorfactors_container{
+            padding:20px;
+        }
+        .solutions_container{
           padding:20px;
-      }
-      .why_container{
+        }
+        .IA_container{
           padding:20px;
-      }
-      .com_summary{
+        }
+      .design_container{
           padding:20px;
-      }
-      .takeaways_contanier{
+        }
+        .reflections_container{
           padding:20px;
-      }
+        }
+        /*********************/
+        /*Flexbox*/
       div#thirdteen_column{
           width:10%;
           padding-left:0;
@@ -1098,17 +1083,11 @@
           padding-left:0;
           padding-right:20px;
       }
-      .problemstatement_container{
-          padding:20px;
-      }
       .problemstatement_flexbox_row{
           flex-direction: column;
       }
       div.problemstatement_flexbox_row div{
           width:100%
-      }
-      .behaviorfactors_container{
-          padding:20px;
       }
       div.behavior_factors_flexbox_row{
           flex-direction: column;
@@ -1116,9 +1095,7 @@
       div.behavior_factors_flexbox_row div{
           width:100%;
       }
-      .solutions_container{
-          padding:20px;
-      }
+      
       div#twentyfive_column{
           width:10%;
          padding-right:20px;
@@ -1152,24 +1129,9 @@
       div.brainstorming_flexbox{
           flex-direction: column;
       }
-      .IA_container{
-          padding:20px;
-      }
-      .design_container{
-          padding:20px;
-      }
+      
       div.picture_set_flexbox{
           display:none;
-      }
-      .reflections_container{
-          padding:20px;
-      }
-      div.reflection_flexbox{
-          display:flex;
-          flex-direction: column;
-      }
-      div.iphone_mockup{
-          width:100%;
       }
       div.final_column{
           padding:10px;
@@ -1182,6 +1144,31 @@
           padding-left: 100px
       }
       /*Course Catalog starts*/
+    /*Container*/
+        .course_catalog_com_container{
+            padding:20px;
+        }
+        .course_catalog_interview_container{
+            padding:20px;
+        }
+        .CA_flexbox_row{
+            flex-direction: column;
+        }
+        .CA_flexbox_row div{
+            width:100%;
+        }
+        .mural_container{
+            display:none;
+        }
+        .course_catalog_interview_takeaways_flexrow{
+            flex-direction: column;
+        }
+        .interview_takeaways_flexbox{
+            width:100%;
+        }
+        .interview_takeaways_flexbox span{
+            margin:0 35%;
+        }   
       /*About page starts*/
       .selfintro_container{
           padding:20px;
@@ -1230,7 +1217,7 @@
 
 
 
-
+/****************************************/
 /* iPad Portrait and Landscape */
 @media only screen 
   and (min-device-width: 768px) 
