@@ -762,6 +762,25 @@ div#thirty_column{
     padding-top:20px;
     padding-bottom:20px; 
 }
+#course_catalog_problem_solution{
+    width:100%;
+    background-color:rgb(255,250,244); 
+}
+.course_catalog_problem_solution_container{
+    padding: 3% 15%;
+}
+.course_catalog_problem_solution_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+}
+.course_catalog_problem_solution_grid div{
+    text-align: center;
+}
+.course_catalog_solutiongrid_container{
+    margin-top:40px;
+}
+
 /*coursecatalog competitve analysis*/
 
 .CA_flexbox_row{
@@ -777,8 +796,7 @@ div#thirty_column{
     margin-bottom: 0px;
     
 }
-#course_catalog_com_analysis{
-    background-color:rgb(255,250,244); 
+#course_catalog_com_analysis{ 
     width:100%;
 }
 .course_catalog_com_container{
@@ -798,17 +816,18 @@ div#thirty_column{
 }
 #course_catalog_interview{
     width:100%;
+    background-color:rgb(255,250,244);
 }
 .course_catalog_interview_container{
     padding: 3% 15%; 
 }
 .affinity_diagram_container{
-    margin:20px 0;
+    margin:30px 0;
 }
 .course_catalog_interview_takeaways_flexrow{
     display: flex;
     flex-direction: row;
-    margin:30px 0;
+    margin:40px 0;
 }
 .interview_takeaways_flexbox{
     width:25%;
@@ -824,25 +843,13 @@ div#thirty_column{
 .interview_takeaways_icon{
     width:60px;
 }
-.course_catalog_problems_container{
-    margin:20px 0;
-}
-.course_catalog_problems_grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:10px;
-}
-.course_catalog_problems_grid div{
-    text-align: center;
-}
+
 .course_catalog_persona{
     width:100%;
     
 }
 .course_catalog_persona_container{
-    padding:3% 15%;
-    background-color: rgb(255,250,244);
-    
+    padding:3% 15%;  
 }
 
 
