@@ -802,6 +802,9 @@ div#thirty_column{
 .course_catalog_interview_container{
     padding: 3% 15%; 
 }
+.affinity_diagram_container{
+    margin:20px 0;
+}
 .course_catalog_interview_takeaways_flexrow{
     display: flex;
     flex-direction: row;
@@ -820,6 +823,24 @@ div#thirty_column{
 }
 .interview_takeaways_icon{
     width:60px;
+}
+.course_catalog_problems_container{
+    margin:20px 0;
+}
+.course_catalog_problems_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+}
+.course_catalog_problems_grid div{
+    text-align: center;
+}
+.course_catalog_persona{
+    width:100%;
+    background-color: rgb(255,250,244);
+}
+.course_catalog_persona_container{
+    padding:3% 15%;
 }
 
 
