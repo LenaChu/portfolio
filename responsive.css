@@ -262,6 +262,9 @@ screen
         .mural_container{
             display:none;
         }
+        .course_catalog_content_inventory_container{
+            padding: 20px;
+        }
         .course_catalog_interview_takeaways_flexrow{
             flex-direction: column;
         }
@@ -274,6 +277,17 @@ screen
       .course_catalog_persona_container{
           padding:20px;
       }
+      .course_catalog_wireframes_container{
+          padding:20px;
+      }
+      .cardsorting_grid{
+          grid-template-columns: 1fr;
+          grid-template-columns:repeat(7 1fr);
+      }
+      .cardsorting_grid h3{
+          text-align: left;
+      }
+
       /*About page starts*/
       .selfintro_container{
           padding:20px;
