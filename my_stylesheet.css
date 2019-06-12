@@ -47,13 +47,13 @@ label{
     display:none;
 }
 
-ul{
+.navlinks{
     display:block;
 	white-space: nowrap;
     font-family: 'Crimson Text', serif;
     margin: -30px 30px 15px 0;
 }
-li{
+#navbutton{
 	list-style:none;
 	display:inline-block;
     font-size:16px;
@@ -880,25 +880,26 @@ div#thirty_column{
 }
 .cardsorting_grid{
     display: grid;
-    grid-template-columns: 3fr 0.5fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-gap:10px;
     padding:20px 0;
 }
-.cardsorting_grid div{
-}
-.cardsorting_grid h3{
-    text-align:right;
-}
-.grid_item_1{
-    grid-row-start: 1;
-    grid-row-end: 5;
-    text-align: center;
-}
-.cardsorting_grid h3{
-    color:orange;
-}
 #course_catalog_wireframes{
     width:100%;
+}
+#grid_list{
+    line-height:25px;
+    color:rgb(49,58,55);
+    letter-spacing: .02em;
+}
+#grid_list_content{
+    margin:20px 20px 20px -20px;
+}
+.grid_item_1{
+    text-align: center;
+}
+.grid_item_2{
+    padding:20% 0;
 }
 .course_catalog_wireframes_container{
     padding:3% 15%;

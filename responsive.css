@@ -30,11 +30,11 @@ screen
           width:100%;
           display:none;
       }
-      ul{
+      .navlinks{
           margin:0;
           padding:0;
       }
-      li{
+      #navbutton{
           background-color:white;
           display:block;
           line-height:70px;
@@ -282,11 +282,8 @@ screen
       }
       .cardsorting_grid{
           grid-template-columns: 1fr;
-          grid-template-columns:repeat(7 1fr);
       }
-      .cardsorting_grid h3{
-          text-align: left;
-      }
+
 
       /*About page starts*/
       .selfintro_container{

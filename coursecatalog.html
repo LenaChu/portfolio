@@ -1,86 +1,93 @@
 <!doctype html>
 <html>
     <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title>Course Catalog Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <title>Course Catalog Website</title>
         
            <!--Fonts-->    
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,600,700,800,900" rel="stylesheet">
-        <!--Animation-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    
-        <!--Normalization-->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,600,700,800,900" rel="stylesheet">
+            <!--Animation-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+            <!--Normalization-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
     <!--My stylesheet-->
-     <link href="my_stylesheet.css" rel="stylesheet">
-     <link href="responsive.css" rel="stylesheet">
-    <!--slide-in animation-->
-    <script src="float-panel.js"></script>
-    <style>
-        a{text-decoration: none;
-        }
-          a:active{
-            color:rgb(49,58,55);
-        }
-        body{
-            font-family: 'Raleway', sans-serif;
-            text-align: left;
-        }
-        h2{
-            color:rgb(49,58,55);
-            font-weight: 600;
-            letter-spacing: 2px;
-            font-family: 'Crimson Text', serif;
-            
-        }
-        h3{
-            color:rgb(49,58,55);
-            font-weight: 600;
-            letter-spacing: 2px;
-            margin-bottom: 30px;
-            font-family: 'Crimson Text', serif;
-        }
-        h4{
-           color:rgb(109,109,109);
-           font-weight: 600;
-           letter-spacing: 2px;
-            margin-bottom: 20px;
-            font-family: 'Crimson Text', serif;
-        }
-        p{ color:rgb(49,58,55);
-           font-size: 16px;
-           line-height: 25px;
-        }
-        #workBttn{
-            font-weight: bold;
-        }
+         <link href="my_stylesheet.css" rel="stylesheet">
+         <link href="responsive.css" rel="stylesheet">
+        <!--slide-in animation-->
+        <script src="float-panel.js"></script>
+        <style>
+            a{text-decoration: none;
+            }
+              a:active{
+                color:rgb(49,58,55);
+            }
+            body{
+                font-family: 'Raleway', sans-serif;
+                text-align: left;
+            }
+            h2{
+                color:rgb(49,58,55);
+                font-weight: 600;
+                letter-spacing: 2px;
+                font-family: 'Crimson Text', serif;
+
+            }
+            h3{
+                color:rgb(49,58,55);
+                font-weight: 600;
+                letter-spacing: 2px;
+                margin-bottom: 30px;
+                font-family: 'Crimson Text', serif;
+            }
+            h4{
+               color:rgb(109,109,109);
+               font-weight: 600;
+               letter-spacing: 2px;
+                margin-bottom: 20px;
+                font-family: 'Crimson Text', serif;
+            }
+            p{ color:rgb(49,58,55);
+               font-size: 16px;
+               line-height: 25px;
+               letter-spacing: .02em;
+            }
+            #workBttn{
+                font-weight: bold;
+            }
         </style>
     </head>
     <body>
         <div class="content_wrapper">        
             <!--Header-->
 <header id="my_header">
-               <div class="nav-container">
-                   <div class="logo-container">
-            <a id="nav_Logo" href="index.html"><img id="Logo" src="pic/Logo.svg" alt="Personal Logo" style="width:45px;"></a></div>
-            <nav class="top-nav-container">
-                <label for="toggle">&#9776;</label>
-                <input type="checkbox" id="toggle"/>
-                <div class="menu">
-            <ul class="navlinks ">
-				<li><span style="color:rgb(49,58,55);"><a id="workBttn" href="index.html#myproject" class="hvr-underline-from-center">WORK</a></span></li>
-				<li><span style="color:rgb(49,58,55)"><a id="aboutBttn" href="about_me_page.html" class="hvr-underline-from-center">ABOUT</a></span></li>
-				<li class="navibutton"><span style="color:rgb(49,58,55)"><a href="pic/CV_WanChunChu_UX.pdf" class="hvr-underline-from-center">RESUME</a></span></li>
-            </ul>
+            <div class="nav-container">
+                <div class="logo-container">
+                <a id="nav_Logo" href="index.html"><img id="Logo" src="pic/Logo.svg" alt="Personal Logo" style="width:45px;"></a>
+                </div>
+                <nav class="top-nav-container">
+                    <label for="toggle">&#9776;</label>
+                    <input type="checkbox" id="toggle"/>
+                    <div class="menu">
+                        <ul class="navlinks">
+                            <li id="navbutton">
+                                <span style="color:rgb(49,58,55);"><a id="workBttn" href="index.html#myproject" class="hvr-underline-from-center">WORK</a></span>
+                            </li>
+                            <li id="navbutton">
+                                <span style="color:rgb(49,58,55)"><a id="aboutBttn" href="about_me_page.html" class="hvr-underline-from-center">ABOUT</a></span>
+                            </li>
+                            <li id="navbutton">
+                                <span style="color:rgb(49,58,55)"><a href="pic/CV_WanChunChu_UX.pdf" class="hvr-underline-from-center">RESUME</a></span>
+                            </li>
+                        </ul>
                     </div>
-                       </nav>
-            </div>
-			
+                </nav>
+            </div>	
 </header>				
         <!--Introduction-->
         <section class="coursecatalog_banner"> 
@@ -99,27 +106,35 @@
                     <div class="grid_1_overview_cell"><h4>MEMBER</h4><p>Lan Li, Oliver Lu, Garrett Spencer</p></div>
                     <div class="grid_1_overview_cell"><h4>TIMELINE</h4><p>Jan. 2019 - May. 2019</p></div>
                 </div>
-                <div class="grid_2_overview"><h4>OVERVIEW</h4><p>For students, planning courses is a complicated process. It involves a lot information collecting and desicion making. The current UT course catalog and registration process, however, is not adequate to support students' needs of learning more about courses and a straight way to complete registration. To address those issues, we combined course catalog, time table, and registration page into an integrated portal, creating an one-stop experience of course registration process. We also enhanced the information offered in course catalog. Through the brand new UTLife system, students can access course information more easily and more comprehensively, plan their schedule with visualized time table, and register classes painlessly.</p><p>In this project, we utilized serveral reserach methods, including competitve analysis, user interview, affinity diagram, content inventory, and card sorting. We then generated mi-fi mockups and ran one round usabiblity test. The tools we used were Adobe XD, Mural, and Google Sheets.</p></div>
+                <div class="grid_2_overview">
+                    <h4>OVERVIEW</h4>
+                    <p>For students, planning courses is a complicated process. It involves a lot information collecting and desicion making. The current UT course catalog and registration process, however, is not adequate to support students' needs of learning more about courses and a straight way to complete registration. To address those issues, we combined course catalog, time table, and registration page into an integrated portal, creating an one-stop experience of course registration process. We also enhanced the information offered in course catalog. Through the brand new UTLife system, students can access course information more easily and more comprehensively, plan their schedule with visualized time table, and register classes painlessly.</p>
+                    <p>In this project, we utilized serveral reserach methods, including competitve analysis, user interview, affinity diagram, content inventory, and card sorting. We then generated mi-fi mockups and ran one round usabiblity test. The tools we used were Adobe XD, Mural, and Google Sheets.</p>
+                </div>
             </div>
         </div>
-         </div>
+    </div>
               <!--Design Process-->
         <section id="design_process">
             <div id="dp_content">
-                  <h3>DESIGN PROCESS</h3>
+                <h3>DESIGN PROCESS</h3>
                 <div id="dp_img">
                     <img id="design_process_flowchart" src="pic/course_catalog/designprocess_course.png" alt="Design Process">
                 </div>
-        
             </div>
         </section>
                 <!--Background-->
-        <section id="background"><div class="background_container"><h3>BACKGORUND</h3><p>Although it has importance to every UT student, unfortunately, the UT course catalog has long been complained for its outdated and lack of integration. The course search criteria used by the current website do not meet the need for more precise filtering. In addition, there is no further action students can take on the search result page, such as adding a course to planner or bookmarking. Students still have to take notes of the course numbers by hand and put those numbers on the registration web page, which is separated from the course search website.</p><p>Being the student of UT, we know those pain points well. It intrigues us to initiate a redesign project of the UT course catalog. On the other hand, from the perspective of Information Architecture, we are also interested in what and how students usually look for when composing their class schedule. We are going to take both content and user centered approaches to tackle those research questions.</p> </div>
+        <section id="background">
+            <div class="background_container">
+                <h3>BACKGORUND</h3>
+                <p>Although it has importance to every UT student, unfortunately, the UT course catalog has long been complained for its outdated and lack of integration. The course search criteria used by the current website do not meet the need for more precise filtering. In addition, there is no further action students can take on the search result page, such as adding a course to planner or bookmarking. Students still have to take notes of the course numbers by hand and put those numbers on the registration web page, which is separated from the course search website.</p>
+                <p>Being the student of UT, we know those pain points well. It intrigues us to initiate a redesign project of the UT course catalog. On the other hand, from the perspective of Information Architecture, we are also interested in what and how students usually look for when composing their class schedule. We are going to take both content and user centered approaches to tackle those research questions.</p> 
+            </div>
         </section>
-            <section id="course_catalog_problem_solution">
+        <section id="course_catalog_problem_solution">
                 <div class="course_catalog_problem_solution_container">
                     <div class="course_catalog_problemgrid_container">
-                    <h3>PROBLEMS</h3>
+                        <h3>PROBLEMS</h3>
                         <p>Through our research, we found that UT’s course catalog and registration system doesn’t satisfy students’ needs. There are 3 major problems existing in the current system.</p>
                         <div class="course_catalog_problem_solution_grid">
                             <div class="problems_grid_1"><img src="pic/course_catalog/sad.svg" alt="Sad Face" width="50px;"></div>
@@ -129,9 +144,9 @@
                             <div class="problems_grid_5"><p>Inadequate informative support</p></div>
                             <div class="problems_grid_6"><p>Fragmented registration process</p></div>
                         </div>
-                        </div>
+                    </div>
                     <div class="course_catalog_solutiongrid_container">
-                    <h3>SOLUTIONS</h3>
+                        <h3>SOLUTIONS</h3>
                         <p>In response to these 3 problems, we proposed the following solutions</p>
                         <div class="course_catalog_problem_solution_grid">
                             <div class="problems_grid_1"><img src="pic/course_catalog/happiness.svg" alt="Happy Face" width="50px;"></div>
@@ -141,24 +156,24 @@
                             <div class="problems_grid_5"><p>Consolidate information source </p></div>
                             <div class="problems_grid_6"><p>Integrate course finding and registration</p></div>
                         </div>
-                        </div>
+                    </div>
                     </div>
             </section>
             <section id="course_catalog_com_analysis">
-            <div class="course_catalog_com_container">
-                <h3>COMPETITIVE ANALYSIS</h3>
-                <p>In order to learn more about how course catalog and register systems are like, and how they work, we firstly conducted a competitive analysis. We selected 15 institutions in and out of the United States, including UT. Through the competitive analysis, we found there are numerous approaches those institutions adopted to create course catalog systems. On register system, however, we had trouble to obtain access due to the exclusion of visitors. Because of this, the competitive analysis mainly focuses on course catalog. Though we were able to observe general registration procedures through tutorial videos universities provided.</p>
-                <p>The four major parts we analyzed are:</p>
-                <div class="CA_flexbox_row">
-                <div class="CA_column_one slideanim"><h2 id="number">01</h2><h4>INFORMATION ARCHITECTURE</h4><p>Organizational system, navigational system, organizational structure, and metadata.</p></div>
-                <div class="CA_column_two slideanim"><h2 id="number">02</h2><h4>SEARCH FUNCTIONALITY</h4><p>How the site designed the course search experience</p></div>
-                <div class="CA_column_three slideanim"><h2 id="number">03</h2><h4>VISUAL DESIGN</h4><p>The overall refinement of visual design for the site.</p></div>
-                <div class="CA_column_four slideanim"><h2 id="number">04</h2><h4>ADDITIONAL FEATURES</h4><p>Any outstanding features besides the bare minimum course search process.</p></div> 
-                <!--Insert a table-->
-            </div>
-                 <div class="com_table">
-                    <img id="coursecatalog_competitors" width="80%" alt="Competitive Analysis Table" src="pic/course_catalog/coursecatalog_com_analysis.png"></div>
-            
+                <div class="course_catalog_com_container">
+                    <h3>COMPETITIVE ANALYSIS</h3>
+                    <p>In order to learn more about how course catalog and register systems are like, and how they work, we firstly conducted a competitive analysis. We selected 15 institutions in and out of the United States, including UT. Through the competitive analysis, we found there are numerous approaches those institutions adopted to create course catalog systems. On register system, however, we had trouble to obtain access due to the exclusion of visitors. Because of this, the competitive analysis mainly focuses on course catalog. Though we were able to observe general registration procedures through tutorial videos universities provided.</p>
+                    <p>The four major parts we analyzed are:</p>
+                    <div class="CA_flexbox_row">
+                    <div class="CA_column_one slideanim"><h2 id="number">01</h2><h4>INFORMATION ARCHITECTURE</h4><p>Organizational system, navigational system, organizational structure, and metadata.</p></div>
+                    <div class="CA_column_two slideanim"><h2 id="number">02</h2><h4>SEARCH FUNCTIONALITY</h4><p>How the site designed the course search experience</p></div>
+                    <div class="CA_column_three slideanim"><h2 id="number">03</h2><h4>VISUAL DESIGN</h4><p>The overall refinement of visual design for the site.</p></div>
+                    <div class="CA_column_four slideanim"><h2 id="number">04</h2><h4>ADDITIONAL FEATURES</h4><p>Any outstanding features besides the bare minimum course search process.</p></div> 
+                    <!--Insert a table-->
+                </div>
+                <div class="com_table">
+                        <img id="coursecatalog_competitors" width="80%" alt="Competitive Analysis Table" src="pic/course_catalog/coursecatalog_com_analysis.png">
+                </div>
                 <div class="course_catalog_com_takeaways">
                     <h4>TAKEAWAYS</h4>
                     <p>The results of the competitive analysis yielded valuable clues of the general structure of course catalog and the variety of features that the institutions offer. Based on the analysis, we reached five major takeaways.</p>
@@ -185,7 +200,7 @@
                         </tr>
                     </table>
                 </div>
-                </div>
+            </div>
          </section>
             <!--Interview & Affinity Diagram-->
             <section id="course_catalog_interview">
@@ -204,8 +219,7 @@
                         <div class="interview_takeaways_flexbox"><span><img class="interview_takeaways_icon"  src="pic/course_catalog/communication.svg" alt="Communication"></span><p>Interpersonal information exchange is heavily relied on.</p></div>
                     </div>
                     <div class="mural_container" align="center"><div style="width: 600px;" class="embed-thumb"> <h1 style="position: relative;vertical-align: middle;display: inline-block; font-size: 24px; line-height:22px; color: #393939;margin-bottom: 10px; font-weight: 300;font-family: Proxima Nova, sans-serif;"><div style="padding-left:50px"> <span style="max-width:555px;display: inline-block;overflow: hidden; white-space: nowrap;text-overflow: ellipsis;line-height: 1; height: 25px; margin-top: -3px;">Affinity Diagram</span> <span style="position:relative;top:-3px;font-size: 16px; margin-top: -6px; line-height: 24px;color: #393939; font-weight: 300;"> by Wan-Chun Chu</span> </div> </h1> <div style="position: relative; height: 0;overflow: hidden; height: 400px; max-width: 800px; min-width: 320px; border-width: 1px; border-style: solid; border-color: #d8d8d8;"> <div style="position: absolute;top: 0;left: 0;z-index: 10; width: 600px; height: 100%;background: url(https://mural.azureedge.net/thumbnails/uxprojectlena3469/murals/uxprojectlena3469.1555448840916-5cb64408bec49810701dd926.png?v=272adb0c-a3bc-454c-b495-9bfe572c2da8) no-repeat center center; background-size: cover;"> <div style="position: absolute;top: 0;left: 0;z-index: 20;width: 100%; height: 100%;background-color: white;-webkit-filter: opacity(.4);"> </div> <a href="https://app.mural.co/t/uxprojectlena3469/m/uxprojectlena3469/1555448840916/11220f27f2893c22da6287cb142447b67b9f6e40" target="_blank" rel="noopener noreferrer" style="transform: translate(-50%, -50%);top: 50%;left: 50%; position: absolute; z-index: 30; border: none; display: block; height: 50px; background: transparent;"> <img src="https://app.mural.co/static/images/btn-enter-mural.svg" alt="ENTER THE MURAL" width="233" height="50"> </a> </div> </div> <p style="margin-top: 10px;margin-bottom: 60px;line-height: 24px; font-size: 16px;font-family: Proxima Nova, sans-serif;font-weight: 400; color: #888888;"> You will enter this mural in View Only mode. </p></div></div>
-                    </div>
-                   
+                    </div>      
                 </div>
             </section>
             <!--Persona-->
@@ -228,30 +242,17 @@
                     </div>
                     <div class="cardsorting">
                         <h3>CARD SORTING</h3>
-                        <p>The categories of the content inventory were then extracted to create 20 cards with brief phrases describing specific functions. We utilized Userzoon, a web-based platform to conduct the card sorting exercise. We sent invitation to students through an iSchool inner mail list server.</p>
+                        <p>The categories of the content inventory were then extracted to create 20 cards with brief phrases describing specific functions. We utilized Userzoon, a web-based platform to conduct the card sorting exercise. We sent invitation to students through an iSchool inner mail list server. The result of the card sorting was very similar to the classification of the content inventory, indicating our classification has good consistency.</p>
                         <div class="cardsorting_grid">
                             <div class="grid_item_1"><img src="pic/course_catalog/Dendrogram_8.jpg" width="90%;"></div>
                             <div class="grid_item_2">
-                                <h3>1.</h3>
-                                
-                            </div>
-                            <div class="grid_item_3">
-                                <p>13 participants</p> 
-                            </div>
-                            <div class="grid_item_4">
-                                <h3>2.</h3>       
-                            </div>
-                            <div class="grid_item_5">
-                                <p>Open card sorting</p>
-                            </div>
-                            <div class="grid_item_6">
-                                <h3>3.</h3>
-                            </div>
-                            <div class="grid_item_7">
-                                <p>Activities and features performed in the registration proces</p>
+                                <ul id="grid_list">
+                                    <li id="grid_list_content">13 participants</li>
+                                    <li id="grid_list_content">Open card sorting</li>
+                                    <li id="grid_list_content">Activities and features performed in the registration proces</li>
+                                </ul>
                             </div>
                         </div>
-                        <p>The result of the card sorting was very similar to the classification of the content inventory, indicating our classification has good consistency.</p>
                     </div>
                 </div>
             </section>
