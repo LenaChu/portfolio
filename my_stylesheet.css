@@ -2,10 +2,11 @@
 
 /*shared components*/
 body{
-	background-color:white;
+	/*background-color:white;*/
     height:100%;
     position:relative;
     text-align: left;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
 }
 /*Content Wrapper*/
 #content_wrapper{
