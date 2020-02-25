@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*shared components*/
+/*global components*/
 body{
 	/*background-color:white;*/
     height:100%;
@@ -63,6 +63,10 @@ label{
     margin-left:20px;
     margin-right:20px;
    
+}
+img{
+    max-width: 100%;
+    max-height: auto;
 }
 
 /*Animation*/
